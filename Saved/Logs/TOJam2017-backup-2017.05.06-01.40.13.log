@@ -1,0 +1,1192 @@
+﻿Log file open, 05/06/17 00:42:45
+LogInit:Display: Running engine for game: TOJam2017
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1480120049) SRandInit(1480120050).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074235
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: d:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.06-04.42.46:113][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.06-04.42.46:113][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.06-04.42.46:223][  0]LogInit: Computer: DESKTOP-QN8JF5I
+[2017.05.06-04.42.46:223][  0]LogInit: User: khizer
+[2017.05.06-04.42.46:223][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.06-04.42.46:223][  0]LogInit: High frequency timer resolution =2.143473 MHz
+[2017.05.06-04.42.46:223][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2017.05.06-04.42.46:223][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.06-04.42.46:223][  0]LogMemory: Process Physical Memory: 262.80 MB used, 262.80 MB peak
+[2017.05.06-04.42.46:223][  0]LogMemory: Process Virtual Memory: 262.67 MB used, 262.67 MB peak
+[2017.05.06-04.42.46:223][  0]LogMemory: Physical Memory: 4334.16 MB used,  3514.19 MB free, 7848.36 MB total
+[2017.05.06-04.42.46:223][  0]LogMemory: Virtual Memory: 645.24 MB used,  3514.19 MB free, 134217728.00 MB total
+[2017.05.06-04.42.46:293][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2017.05.06-04.42.52:055][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.06-04.42.52:093][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760M' (Feature Level 11_0)
+[2017.05.06-04.42.52:093][  0]LogD3D11RHI:       2020/0/3924 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.06-04.42.52:103][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.06-04.42.52:103][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.06-04.42.52:105][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.06-04.42.52:105][  0]LogD3D11RHI:       0/0/3924 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.06-04.42.52:105][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.06-04.42.52:113][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.06-04.42.52:113][  0]LogD3D11RHI:     GPU DeviceId: 0x11e3 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.06-04.42.52:113][  0]LogWindows: EnumDisplayDevices:
+[2017.05.06-04.42.52:113][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.05.06-04.42.52:114][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.06-04.42.52:114][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.06-04.42.52:115][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.06-04.42.52:115][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760M
+[2017.05.06-04.42.52:115][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.06-04.42.52:115][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.06-04.42.52:115][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.06-04.42.52:128][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.06-04.42.52:130][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: NvApiIncompatible
+[2017.05.06-04.42.52:130][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.06-04.42.52:142][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.06-04.42.52:143][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../../ToJamProject/TOJAM17/Intermediate/Shaders/WorkingDirectory/4624/).
+[2017.05.06-04.42.52:143][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/khizer/AppData/Local/Temp/UnrealShaderWorkingDir/5EB035A64BE31BA86137AFB0CA599C8E/'.
+[2017.05.06-04.42.52:143][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.06-04.43.00:631][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.06-04.43.00:680][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.06-04.43.00:728][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.06-04.43.00:776][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.06-04.43.00:866][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.06-04.43.00:924][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.06-04.43.00:972][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.06-04.43.01:019][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.06-04.43.01:055][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.06-04.43.01:113][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.06-04.43.01:161][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.06-04.43.01:206][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.06-04.43.01:251][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.06-04.43.01:297][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.06-04.43.01:349][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.06-04.43.01:440][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.06-04.43.01:440][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.06-04.43.01:468][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.06-04.43.01:562][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.06-04.43.01:612][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.06-04.43.01:656][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.06-04.43.01:701][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.06-04.43.01:745][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.06-04.43.01:910][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.06-04.43.01:910][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.06-04.43.02:347][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.06-04.43.02:398][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/khizer/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.06-04.43.02:398][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/khizer/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.06-04.43.02:398][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../ToJamProject/TOJAM17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.06-04.43.02:398][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.06-04.43.02:398][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../ToJamProject/TOJAM17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.06-04.43.02:398][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.06-04.43.02:418][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.06-04.43.02:430][  0]LogDerivedDataCache: Using Local data cache path C:/Users/khizer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.06-04.43.02:441][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.06-04.43.02:480][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.06-04.43.02:480][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.06-04.43.04:462][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.06-04.43.04:464][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.06-04.43.04:648][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.06-04.43.04:680][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.06-04.43.04:718][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.06-04.43.04:718][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.06-04.43.04:718][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.06-04.43.05:528][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: tojam2017, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4065219163
+[2017.05.06-04.43.05:570][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.05.06-04.43.05:611][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.024630 seconds
+[2017.05.06-04.43.05:617][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.06-04.43.05:617][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.06-04.43.05:617][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.06-04.43.05:663][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.06-04.43.26:999][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.06-04.43.27:031][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.06-04.43.27:655][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.06-04.43.28:025][  0]SourceControl: Info Source control is disabled
+[2017.05.06-04.43.29:567][  0]LogEngine: Initializing Engine...
+[2017.05.06-04.43.29:567][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.06-04.43.29:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.06-04.43.29:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.06-04.43.29:767][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.06-04.43.29:772][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-04.43.29:797][  0]LogInit: FAudioDevice initialized.
+[2017.05.06-04.43.29:825][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/khizer/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.06-04.43.29:834][  0]LogInit: Texture streaming: Enabled
+[2017.05.06-04.43.29:922][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.06-04.43.29:990][  0]LogInit: Transaction tracking system initialized
+[2017.05.06-04.43.30:242][  0]BlueprintLog: New page: Editor Load
+[2017.05.06-04.43.31:004][  0]LocalizationService: Info Localization service is disabled
+[2017.05.06-04.43.31:796][  0]LogConsoleResponse:Display: 
+[2017.05.06-04.43.31:912][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.06-04.43.31:912][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.06-04.43.32:014][  0]LogFileCache: Scanning file cache for directory 'd:/ToJamProject/TOJAM17/Content/' took 0.02s
+[2017.05.06-04.43.33:485][  0]Cmd: MAP LOAD FILE="../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.06-04.43.33:485][  0]LightingResults: New page: Lighting Build
+[2017.05.06-04.43.33:515][  0]MapCheck: New page: Map Check
+[2017.05.06-04.43.33:515][  0]LightingResults: New page: Lighting Build
+[2017.05.06-04.43.34:576][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Blueprints/Characters/BowGuy/Animations/sword_and_shield_jump_inPlace.sword_and_shield_jump_inPlace
+[2017.05.06-04.43.34:660][  0]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-04.43.34:686][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.06-04.43.34:687][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.06-04.43.34:723][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.319ms to complete.
+[2017.05.06-04.43.34:723][  0]LogFileHelpers: Loading map 'LevelOne' took 1.238
+[2017.05.06-04.43.34:957][  0]LogCollectionManager: Loaded 0 collections in 0.000852 seconds
+[2017.05.06-04.43.35:053][  0]LogFileCache: Scanning file cache for directory 'd:/ToJamProject/TOJAM17/Saved/Collections/' took 0.01s
+[2017.05.06-04.43.35:053][  0]LogFileCache: Scanning file cache for directory 'd:/ToJamProject/TOJAM17/Content/Developers/khizer/Collections/' took 0.01s
+[2017.05.06-04.43.35:053][  0]LogFileCache: Scanning file cache for directory 'd:/ToJamProject/TOJAM17/Content/Collections/' took 0.01s
+[2017.05.06-04.43.35:053][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.06-04.43.35:063][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2245 classes and 453 folders.
+[2017.05.06-04.43.35:111][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.06-04.43.35:267][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.06-04.43.35:299][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.06-04.43.35:401][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.06-04.43.35:408][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.06-04.43.35:462][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.06-04.43.35:463][  0]LogLoad: (Engine Initialization) Total time: 52.10 seconds
+[2017.05.06-04.43.35:463][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.48 seconds
+[2017.05.06-04.43.35:463][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.06-04.43.35:463][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.06-04.43.35:803][  0]LogOcInput: OculusInput pre-init called
+[2017.05.06-04.43.35:835][  0]SourceControl: Info On branch master
+[2017.05.06-04.43.35:835][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.06-04.43.35:835][  0]SourceControl: Info Changes not staged for commit:
+[2017.05.06-04.43.35:835][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.06-04.43.35:835][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	modified:   Saved/Logs/TOJam2017.log
+[2017.05.06-04.43.35:835][  0]SourceControl: Info Untracked files:
+[2017.05.06-04.43.35:835][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	Saved/Logs/TOJam2017-backup-2017.05.06-00.37.54.log
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	Saved/Logs/TOJam2017-backup-2017.05.06-00.42.44.log
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-17213CB946E67E74D25D54AD47ECC344/
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-17213CB946E67E74D25D54AD47ECC344_0000/
+[2017.05.06-04.43.35:835][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-6A12689841F46834E91952A4D4378103/
+[2017.05.06-04.43.35:835][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.06-04.43.35:836][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.05.06-04.43.35:838][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.06-04.43.35:848][  0]LogSlate: Took 0.000451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.06-04.43.35:856][  0]LogSlate: Took 0.000475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.06-04.43.35:981][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.06-04.43.36:032][  0]LogRenderer: Reallocating scene render targets to support 836x444 NumSamples 1 (Frame:2).
+[2017.05.06-04.43.37:140][  4]LogAssetRegistry: Asset discovery search completed in 31.5926 seconds
+[2017.05.06-04.43.37:140][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000025 seconds (found 0 objects)
+[2017.05.06-04.43.37:141][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000110 seconds (updated 0 objects)
+[2017.05.06-04.43.54:820][147]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.06-04.43.55:367][147]LogSlate: Took 0.000458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.06-04.43.55:513][147]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.06-04.43.56:322][147]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.06-04.43.56:529][148]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.06-04.44.04:805][620]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.06-04.44.04:934][620]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.06-04.44.05:064][620]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.06-04.45.04:507][494]SourceControl: Info On branch master
+[2017.05.06-04.45.04:507][494]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.06-04.45.04:507][494]SourceControl: Info Changes not staged for commit:
+[2017.05.06-04.45.04:507][494]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.06-04.45.04:507][494]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	modified:   Saved/Logs/TOJam2017.log
+[2017.05.06-04.45.04:507][494]SourceControl: Info Untracked files:
+[2017.05.06-04.45.04:507][494]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	Saved/Logs/TOJam2017-backup-2017.05.06-00.37.54.log
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	Saved/Logs/TOJam2017-backup-2017.05.06-00.42.44.log
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	Saved/Logs/UE4CC-Windows-17213CB946E67E74D25D54AD47ECC344/
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	Saved/Logs/UE4CC-Windows-17213CB946E67E74D25D54AD47ECC344_0000/
+[2017.05.06-04.45.04:507][494]SourceControl: Info 	Saved/Logs/UE4CC-Windows-6A12689841F46834E91952A4D4378103/
+[2017.05.06-04.45.04:507][494]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.06-04.45.17:160][156]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.06-04.45.17:252][156]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TOJam2017
+
+[2017.05.06-04.45.17:252][156]LogTemp:Display: CWD: d:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.06-04.45.17:252][156]LogTemp:Display: Initial Dir: d:\Program Files\Epic Games\UE_4.15
+
+[2017.05.06-04.45.17:252][156]LogTemp:Display: Env CWD: d:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.06-04.45.17:255][156]LogTemp:Display: BranchPath = DESKTOP-QN8JF5I/d/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-QN8JF5I/d/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.06-04.45.17:269][157]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\khizer\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.05.06-04.45.17:269][157]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.06-04.45.17:269][157]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.06-04.45.17:269][157]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.06-04.45.17:269][157]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.06-04.45.17:269][157]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.05.06-04.45.29:343][840]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-04.45.29:362][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.45.29:362][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-04.45.29:362][840]PIE: New page: PIE session: LevelOne (May 5, 2017, 8:45:29 PM)
+[2017.05.06-04.45.29:362][840]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-04.45.29:365][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003082s)
+[2017.05.06-04.45.29:366][840]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-04.45.29:366][840]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2017.05.06-04.45.29:367][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.004233s)
+[2017.05.06-04.45.29:402][840]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-04.45.29:412][840]LogInit: FAudioDevice initialized.
+[2017.05.06-04.45.29:494][840]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-04.45.29:501][840]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-00.45.29
+[2017.05.06-04.45.29:502][840]LogWorld: Bringing up level for play took: 0.004633
+[2017.05.06-04.45.29:503][840]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.45.29:552][840]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.06-04.45.29:553][840]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-04.45.29:554][840]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.45.29:555][840]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 1.192
+[2017.05.06-04.45.29:555][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.45.44:490][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.45.44:574][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.46.11:838][301]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.05.06-04.46.11:966][301]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.05.06-04.46.51:564][601]BlueprintLog: New page: Compile BP_ShieldAnim
+[2017.05.06-04.46.51:711][601]BlueprintEditorCompileResults: Info  True Pose  was visible but ignored
+[2017.05.06-04.46.52:024][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/ShieldGuy/BP_ShieldAnim" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset" SILENT=true
+[2017.05.06-04.46.52:101][608]LogSavePackage: Save=63.25ms
+[2017.05.06-04.46.52:101][608]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldAnimF1A0CC7D4362E625A11E4DAEBC4B364E.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset'
+[2017.05.06-04.46.52:105][608]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset
+[2017.05.06-04.47.13:664][872]LogSavePackage: Save=12.90ms
+[2017.05.06-04.47.13:664][872]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/animRunShieldGuyC3E8C24044B3034800601F8D2E29C370.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animRunShieldGuy.uasset'
+[2017.05.06-04.47.13:665][872]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animRunShieldGuy.uasset
+[2017.05.06-04.47.15:208][943]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.05.06-04.47.15:255][943]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.05.06-04.47.15:439][943]LogRenderer: Reallocating scene render targets to support 912x444 NumSamples 1 (Frame:20467).
+[2017.05.06-04.47.28:190][700]SourceControl: Info On branch master
+[2017.05.06-04.47.28:190][700]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.06-04.47.28:190][700]SourceControl: Info Changes to be committed:
+[2017.05.06-04.47.28:190][700]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	new file:   Content/Blueprints/Characters/ShieldGuy/Animations/animRunShieldGuy.uasset
+[2017.05.06-04.47.28:190][700]SourceControl: Info Changes not staged for commit:
+[2017.05.06-04.47.28:190][700]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.06-04.47.28:190][700]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	modified:   Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	modified:   Saved/Logs/TOJam2017.log
+[2017.05.06-04.47.28:190][700]SourceControl: Info Untracked files:
+[2017.05.06-04.47.28:190][700]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	Saved/Backup/BP_ShieldAnim_2017-05-06-00-46-52.uasset
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	Saved/Logs/TOJam2017-backup-2017.05.06-00.37.54.log
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	Saved/Logs/TOJam2017-backup-2017.05.06-00.42.44.log
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	Saved/Logs/UE4CC-Windows-17213CB946E67E74D25D54AD47ECC344/
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	Saved/Logs/UE4CC-Windows-17213CB946E67E74D25D54AD47ECC344_0000/
+[2017.05.06-04.47.28:190][700]SourceControl: Info 	Saved/Logs/UE4CC-Windows-6A12689841F46834E91952A4D4378103/
+[2017.05.06-04.47.28:379][700]LogSavePackage: Save=12.48ms
+[2017.05.06-04.47.28:379][700]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/animRunShieldGu75563BEE4BEFCA3C89A900BF5E27A63A.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animRunShieldGu.uasset'
+[2017.05.06-04.47.28:380][700]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animRunShieldGu.uasset
+[2017.05.06-04.47.36:576][158]SourceControl: Info On branch master
+[2017.05.06-04.47.36:576][158]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.06-04.47.36:576][158]SourceControl: Info Changes to be committed:
+[2017.05.06-04.47.36:576][158]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	new file:   Content/Blueprints/Characters/ShieldGuy/Animations/animRunShieldGu.uasset
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	new file:   Content/Blueprints/Characters/ShieldGuy/Animations/animRunShieldGuy.uasset
+[2017.05.06-04.47.36:576][158]SourceControl: Info Changes not staged for commit:
+[2017.05.06-04.47.36:576][158]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.06-04.47.36:576][158]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	modified:   Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	modified:   Saved/Logs/TOJam2017.log
+[2017.05.06-04.47.36:576][158]SourceControl: Info Untracked files:
+[2017.05.06-04.47.36:576][158]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	Saved/Backup/BP_ShieldAnim_2017-05-06-00-46-52.uasset
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	Saved/Logs/TOJam2017-backup-2017.05.06-00.37.54.log
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	Saved/Logs/TOJam2017-backup-2017.05.06-00.42.44.log
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	Saved/Logs/UE4CC-Windows-17213CB946E67E74D25D54AD47ECC344/
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	Saved/Logs/UE4CC-Windows-17213CB946E67E74D25D54AD47ECC344_0000/
+[2017.05.06-04.47.36:576][158]SourceControl: Info 	Saved/Logs/UE4CC-Windows-6A12689841F46834E91952A4D4378103/
+[2017.05.06-04.47.50:264][952]SourceControl: Info On branch master
+[2017.05.06-04.47.50:264][952]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.06-04.47.50:264][952]SourceControl: Info Changes to be committed:
+[2017.05.06-04.47.50:264][952]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	new file:   Content/Blueprints/Characters/ShieldGuy/Animations/animRunShieldGu.uasset
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	new file:   Content/Blueprints/Characters/ShieldGuy/Animations/animRunShieldGuy.uasset
+[2017.05.06-04.47.50:264][952]SourceControl: Info Changes not staged for commit:
+[2017.05.06-04.47.50:264][952]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.05.06-04.47.50:264][952]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	modified:   Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	modified:   Saved/Logs/TOJam2017.log
+[2017.05.06-04.47.50:264][952]SourceControl: Info Untracked files:
+[2017.05.06-04.47.50:264][952]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	Saved/Backup/BP_ShieldAnim_2017-05-06-00-46-52.uasset
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	Saved/Logs/TOJam2017-backup-2017.05.06-00.37.54.log
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	Saved/Logs/TOJam2017-backup-2017.05.06-00.42.44.log
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	Saved/Logs/UE4CC-Windows-17213CB946E67E74D25D54AD47ECC344/
+[2017.05.06-04.47.50:264][952]SourceControl: Info 	Saved/Logs/UE4CC-Windows-17213CB946E67E74D25D54AD47ECC344_0000/
+[2017.05.06-04.47.50:265][952]SourceControl: Info 	Saved/Logs/UE4CC-Windows-6A12689841F46834E91952A4D4378103/
+[2017.05.06-04.47.50:456][952]LogSavePackage: Save=12.70ms
+[2017.05.06-04.47.50:456][952]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/animWalkSlowShieldGuy37EE22F44B28C2E10DF9E48567588876.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animWalkSlowShieldGuy.uasset'
+[2017.05.06-04.47.50:458][952]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animWalkSlowShieldGuy.uasset
+[2017.05.06-04.47.51:869][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.05.06-04.47.51:918][  6]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.05.06-04.48.22:121][787]LogSavePackage: Save=5.66ms
+[2017.05.06-04.48.22:121][787]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/animWalkSlowShieldGuy2AA718C9400615685759B9BD56DE668A.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animWalkSlowShieldGuy.uasset'
+[2017.05.06-04.48.22:122][787]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animWalkSlowShieldGuy.uasset
+[2017.05.06-04.48.25:696][997]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.05.06-04.48.25:743][997]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.05.06-04.48.25:873][997]LogRenderer: Reallocating scene render targets to support 912x672 NumSamples 1 (Frame:32181).
+[2017.05.06-04.48.29:241][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.05.06-04.48.29:370][188]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.05.06-04.48.43:307][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_6.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.05.06-04.48.43:447][  7]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_6.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2017.05.06-04.48.49:780][368]BlueprintLog: New page: Compile BP_ShieldAnim
+[2017.05.06-04.48.50:136][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/ShieldGuy/BP_ShieldAnim" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset" SILENT=true
+[2017.05.06-04.48.50:198][372]LogSavePackage: Save=59.78ms
+[2017.05.06-04.48.50:198][372]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldAnimDB8B0A364B01F6F5043D10BB7DDCA9D3.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset'
+[2017.05.06-04.48.50:200][372]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset
+[2017.05.06-04.49.29:098][609]BlueprintLog: New page: Compile BP_ShieldCharacter
+[2017.05.06-04.49.29:111][609]LogBlueprint:Error: [Compiler BP_ShieldCharacter] Error This blueprint (self) is not a CharacterMovementComponent, therefore ' Target ' must have a connection.
+[2017.05.06-04.49.29:146][609]LogBlueprint:Error: [Compiler BP_ShieldCharacter] Error Variable node  Set MaxWalkSpeed  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.05.06-04.49.29:233][609]LogBlueprint:Error: [Compiler BP_ShieldCharacter] Error This blueprint (self) is not a CharacterMovementComponent, therefore ' Target ' must have a connection.
+[2017.05.06-04.49.29:233][609]LogBlueprint:Error: [Compiler BP_ShieldCharacter] Error Variable node  Set MaxWalkSpeed  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.05.06-04.49.29:495][609]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharacterMovementComponent, therefore ' Target ' must have a connection.
+[2017.05.06-04.49.29:495][609]BlueprintEditorCompileResults:Error: Error Variable node  Set MaxWalkSpeed  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.05.06-04.49.29:496][609]LogBlueprint:Warning: [Compiler BP_ShieldCharacter] Warning [0406.13] Compile of BP_ShieldCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 397 ms] (/Game/Blueprints/Characters/BP_ShieldCharacter.BP_ShieldCharacter)
+[2017.05.06-04.49.29:711][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_ShieldCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset" SILENT=true
+[2017.05.06-04.49.29:809][615]LogSavePackage: Save=90.00ms
+[2017.05.06-04.49.29:809][615]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldCharacter7545084D4E492642EE951692EC255B32.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset'
+[2017.05.06-04.49.29:810][615]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset
+[2017.05.06-04.49.35:312][939]BlueprintLog: New page: Compile BP_ShieldCharacter
+[2017.05.06-04.49.35:670][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_ShieldCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset" SILENT=true
+[2017.05.06-04.49.35:712][940]LogSavePackage: Save=39.39ms
+[2017.05.06-04.49.35:712][940]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldCharacterE65C6B144635F260828039B76C036D68.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset'
+[2017.05.06-04.49.35:714][940]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset
+[2017.05.06-04.49.37:068][ 16]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-04.49.37:087][ 16]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.49.37:087][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-04.49.37:087][ 16]PIE: New page: PIE session: LevelOne (May 5, 2017, 8:49:37 PM)
+[2017.05.06-04.49.37:087][ 16]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-04.49.37:090][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002667s)
+[2017.05.06-04.49.37:091][ 16]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-04.49.37:091][ 16]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2017.05.06-04.49.37:091][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003660s)
+[2017.05.06-04.49.37:107][ 16]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-04.49.37:118][ 16]LogInit: FAudioDevice initialized.
+[2017.05.06-04.49.37:158][ 16]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-04.49.37:167][ 16]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-00.49.37
+[2017.05.06-04.49.37:168][ 16]LogWorld: Bringing up level for play took: 0.005682
+[2017.05.06-04.49.37:169][ 16]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.49.37:170][ 16]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-04.49.37:173][ 16]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.49.37:174][ 16]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.812
+[2017.05.06-04.49.37:175][ 16]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.49.38:632][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.49.38:667][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.49.40:118][185]LogEditorViewport: Clicking on Actor (LMB): BP_BowCharacter_C (BP_BowCharacter)
+[2017.05.06-04.49.42:415][318]Cmd: DELETE
+[2017.05.06-04.49.42:415][318]Cmd: ACTOR DELETE
+[2017.05.06-04.49.42:417][318]LogEditorActor: Deleted Actor: BP_BowCharacter_C
+[2017.05.06-04.49.42:432][318]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.05.06-04.49.44:144][416]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-04.49.44:163][416]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.49.44:163][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-04.49.44:163][416]PIE: New page: PIE session: LevelOne (May 5, 2017, 8:49:44 PM)
+[2017.05.06-04.49.44:163][416]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-04.49.44:166][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002928s)
+[2017.05.06-04.49.44:166][416]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-04.49.44:167][416]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2017.05.06-04.49.44:167][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003968s)
+[2017.05.06-04.49.44:189][416]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-04.49.44:200][416]LogInit: FAudioDevice initialized.
+[2017.05.06-04.49.44:229][416]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-04.49.44:232][416]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-00.49.44
+[2017.05.06-04.49.44:232][416]LogWorld: Bringing up level for play took: 0.001799
+[2017.05.06-04.49.44:232][416]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.49.44:233][416]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-04.49.44:234][416]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.49.44:234][416]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.128
+[2017.05.06-04.49.44:234][416]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.49.46:899][573]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.49.46:994][573]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.49.47:637][606]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-04.49.47:652][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.49.47:652][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-04.49.47:652][606]PIE: New page: PIE session: LevelOne (May 5, 2017, 8:49:47 PM)
+[2017.05.06-04.49.47:652][606]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-04.49.47:654][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002266s)
+[2017.05.06-04.49.47:655][606]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-04.49.47:655][606]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.05.06-04.49.47:655][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003116s)
+[2017.05.06-04.49.47:674][606]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-04.49.47:684][606]LogInit: FAudioDevice initialized.
+[2017.05.06-04.49.47:720][606]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-04.49.47:726][606]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-00.49.47
+[2017.05.06-04.49.47:726][606]LogWorld: Bringing up level for play took: 0.004364
+[2017.05.06-04.49.47:728][606]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.49.47:729][606]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-04.49.47:731][606]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.49.47:732][606]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.631
+[2017.05.06-04.49.47:732][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.50.04:571][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.50.04:666][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.50.07:313][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-04.50.07:452][759]LogSavePackage: Save=116.40ms
+[2017.05.06-04.50.07:452][759]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/LevelOne80C3EF4D4BFD84A0A9E35CAD546295EB.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap'
+[2017.05.06-04.50.07:453][759]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap
+[2017.05.06-04.50.07:499][759]LogFileHelpers: Saving map 'LevelOne' took 0.230
+[2017.05.06-04.50.15:067][179]BlueprintLog: New page: Compile BP_ShieldCharacter
+[2017.05.06-04.50.15:509][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_ShieldCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset" SILENT=true
+[2017.05.06-04.50.15:550][180]LogSavePackage: Save=38.71ms
+[2017.05.06-04.50.15:550][180]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldCharacter9BC62B3141E0E4A68F47DB9E8FB557AC.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset'
+[2017.05.06-04.50.15:552][180]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset
+[2017.05.06-04.51.15:757][455]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-04.51.16:347][455]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.BP_ShieldCharacter_34.CollisionCylinder is already used by CapsuleComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.REINST_BP_ShieldCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.06-04.51.16:348][455]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.BP_ShieldCharacter_34.Arrow is already used by ArrowComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.REINST_BP_ShieldCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.06-04.51.16:348][455]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.BP_ShieldCharacter_34.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.REINST_BP_ShieldCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.06-04.51.16:348][455]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.BP_ShieldCharacter_34.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.REINST_BP_ShieldCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.06-04.51.17:510][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-04.51.17:568][480]LogSavePackage: Save=49.91ms
+[2017.05.06-04.51.17:568][480]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacter77301D7441CAFC637E73B890AF585FC3.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-04.51.17:570][480]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-04.51.35:993][483]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.06-04.51.50:249][250]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-04.51.58:859][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-04.51.58:936][673]LogSavePackage: Save=73.87ms
+[2017.05.06-04.51.58:936][673]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacter92F84B834BBBC991EDF2C58921C69D4A.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-04.51.58:938][673]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-04.51.59:473][700]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-04.52.08:020][ 88]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-04.52.08:722][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-04.52.08:767][ 88]LogSavePackage: Save=42.74ms
+[2017.05.06-04.52.08:767][ 88]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacter100C910649ACA3FD8E511D950413DDB6.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-04.52.08:769][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-04.52.09:232][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-04.52.09:271][106]LogSavePackage: Save=36.34ms
+[2017.05.06-04.52.09:271][106]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacterF5BF099F494F4E641F88C09E8585DAFB.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-04.52.09:271][106]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-04.52.22:742][834]BlueprintLog: New page: Compile BP_ShieldCharacter
+[2017.05.06-04.52.22:762][834]LogBlueprint:Warning: [BP_ShieldAnim] 'bRightClickPressed' variable not found. Base class was probably changed.
+[2017.05.06-04.52.22:802][834]LogBlueprint:Warning: [Compiler BP_ShieldAnim] Warning Could not find a variable named "bRightClickPressed" in 'BP_ShieldCharacter_C'.
+Make sure 'BP_ShieldCharacter_C' has been compiled for  Get bRightClickPressed
+[2017.05.06-04.52.22:812][834]LogBlueprint:Warning: [Compiler BP_ShieldAnim] Warning Could not find a variable named "bRightClickPressed" in 'BP_ShieldCharacter_C'.
+Make sure 'BP_ShieldCharacter_C' has been compiled for  Get bRightClickPressed
+[2017.05.06-04.52.22:814][834]LogBlueprint:Error: [Compiler BP_ShieldAnim] Error The property associated with  Right Click Pressed  could not be found
+[2017.05.06-04.52.22:843][834]LogBlueprint:Warning: [BP_ShieldAnim] 'bRightClickPressed' variable not found. Base class was probably changed.
+[2017.05.06-04.52.24:419][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_ShieldCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset" SILENT=true
+[2017.05.06-04.52.24:484][855]LogSavePackage: Save=61.54ms
+[2017.05.06-04.52.24:484][855]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldCharacterAA389183476B2FA9AF7FE5B91D4316E2.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset'
+[2017.05.06-04.52.24:487][855]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset
+[2017.05.06-04.52.27:563][ 25]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.Actor_7.DebugSkelMeshComponent_13) Already registered. Aborting.
+[2017.05.06-04.52.27:777][ 25]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.Actor_7.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2017.05.06-04.52.35:641][467]LogEditorTransaction: Undo Add Node
+[2017.05.06-04.52.35:665][467]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.Actor_7.DebugSkelMeshComponent_13) Already registered. Aborting.
+[2017.05.06-04.52.35:676][467]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.06-04.53.02:425][593]BlueprintLog: New page: Compile BP_ShieldAnim
+[2017.05.06-04.53.02:455][593]LogBlueprint:Warning: [Compiler BP_ShieldAnim] Warning Could not find a variable named "bRightClickPressed" in 'BP_ShieldCharacter_C'.
+Make sure 'BP_ShieldCharacter_C' has been compiled for  Get bRightClickPressed
+[2017.05.06-04.53.02:460][593]LogBlueprint:Warning: [Compiler BP_ShieldAnim] Warning Could not find a variable named "bRightClickPressed" in 'BP_ShieldCharacter_C'.
+Make sure 'BP_ShieldCharacter_C' has been compiled for  Get bRightClickPressed
+[2017.05.06-04.53.02:461][593]LogBlueprint:Error: [Compiler BP_ShieldAnim] Error This blueprint (self) is not a BP_ShieldCharacter_C, therefore ' Target ' must have a connection.
+[2017.05.06-04.53.02:462][593]LogBlueprint:Error: [Compiler BP_ShieldAnim] Error Variable node  Get bRightClickPressed  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.05.06-04.53.02:462][593]LogBlueprint:Error: [Compiler BP_ShieldAnim] Error The property associated with  Right Click Pressed  could not be found
+[2017.05.06-04.53.02:677][593]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bRightClickPressed" in 'BP_ShieldCharacter_C'.
+Make sure 'BP_ShieldCharacter_C' has been compiled for  Get bRightClickPressed
+[2017.05.06-04.53.02:677][593]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bRightClickPressed" in 'BP_ShieldCharacter_C'.
+Make sure 'BP_ShieldCharacter_C' has been compiled for  Get bRightClickPressed
+[2017.05.06-04.53.02:677][593]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a BP_ShieldCharacter_C, therefore ' Target ' must have a connection.
+[2017.05.06-04.53.02:677][593]BlueprintEditorCompileResults:Error: Error Variable node  Get bRightClickPressed  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.05.06-04.53.02:677][593]BlueprintEditorCompileResults:Error: Error The property associated with  Right Click Pressed  could not be found
+[2017.05.06-04.53.02:677][593]LogBlueprint:Warning: [Compiler BP_ShieldAnim] Warning [0619.31] Compile of BP_ShieldAnim failed. 3 Fatal Issue(s) 2 Warning(s) [in 251 ms] (/Game/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.BP_ShieldAnim)
+[2017.05.06-04.53.03:064][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/ShieldGuy/BP_ShieldAnim" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset" SILENT=true
+[2017.05.06-04.53.03:135][610]LogSavePackage: Save=57.32ms
+[2017.05.06-04.53.03:135][610]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldAnim9769A24047C11C342DCA80B8E9ED3288.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset'
+[2017.05.06-04.53.03:136][610]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset
+[2017.05.06-04.53.14:416][256]BlueprintLog: New page: Compile BP_ShieldAnim
+[2017.05.06-04.53.14:923][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/ShieldGuy/BP_ShieldAnim" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset" SILENT=true
+[2017.05.06-04.53.14:984][272]LogSavePackage: Save=58.32ms
+[2017.05.06-04.53.14:984][272]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldAnimB8A72A9846AA4443AC7408A0E5062036.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset'
+[2017.05.06-04.53.14:985][272]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset
+[2017.05.06-04.53.15:809][313]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-04.53.15:831][313]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.53.15:831][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-04.53.15:831][313]PIE: New page: PIE session: LevelOne (May 5, 2017, 8:53:15 PM)
+[2017.05.06-04.53.15:831][313]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-04.53.15:834][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002689s)
+[2017.05.06-04.53.15:835][313]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-04.53.15:835][313]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2017.05.06-04.53.15:835][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003870s)
+[2017.05.06-04.53.15:856][313]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-04.53.15:866][313]LogInit: FAudioDevice initialized.
+[2017.05.06-04.53.15:896][313]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-04.53.15:899][313]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-00.53.15
+[2017.05.06-04.53.15:899][313]LogWorld: Bringing up level for play took: 0.001870
+[2017.05.06-04.53.15:900][313]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.53.15:900][313]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-04.53.15:901][313]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.53.15:902][313]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.461
+[2017.05.06-04.53.15:902][313]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.53.21:247][633]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.53.21:343][633]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.53.24:117][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-04.53.24:264][780]LogSavePackage: Save=128.16ms
+[2017.05.06-04.53.24:264][780]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/LevelOne3223D3CC40DE01FAC7D551898FA83EEB.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap'
+[2017.05.06-04.53.24:265][780]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap
+[2017.05.06-04.53.24:299][780]LogFileHelpers: Saving map 'LevelOne' took 0.227
+[2017.05.06-04.53.24:316][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_BowCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_BowCharacter.uasset" SILENT=true
+[2017.05.06-04.53.24:382][780]LogSavePackage: Save=59.54ms
+[2017.05.06-04.53.24:382][780]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_BowCharacterF0B518364BFB69F488DB4D85B685D715.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_BowCharacter.uasset'
+[2017.05.06-04.53.24:384][780]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_BowCharacter.uasset
+[2017.05.06-04.54.08:655][385]Cmd: DELETE
+[2017.05.06-04.54.08:655][385]Cmd: ACTOR DELETE
+[2017.05.06-04.54.08:656][385]LogEditorActor: Deleted Actor: BP_ShieldCharacter_C
+[2017.05.06-04.54.08:678][385]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.05.06-04.54.10:795][507]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-04.54.10:811][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.54.10:811][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-04.54.10:811][507]PIE: New page: PIE session: LevelOne (May 5, 2017, 8:54:10 PM)
+[2017.05.06-04.54.10:811][507]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-04.54.10:814][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002627s)
+[2017.05.06-04.54.10:814][507]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-04.54.10:815][507]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2017.05.06-04.54.10:815][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003806s)
+[2017.05.06-04.54.10:836][507]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-04.54.10:845][507]LogInit: FAudioDevice initialized.
+[2017.05.06-04.54.10:876][507]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-04.54.10:880][507]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-00.54.10
+[2017.05.06-04.54.10:880][507]LogWorld: Bringing up level for play took: 0.002102
+[2017.05.06-04.54.10:880][507]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.54.10:881][507]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-04.54.10:882][507]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-04.54.10:882][507]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.52
+[2017.05.06-04.54.10:883][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.54.20:976][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.54.21:093][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-04.54.22:623][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-04.54.22:758][189]LogSavePackage: Save=119.59ms
+[2017.05.06-04.54.22:758][189]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/LevelOneED84C3EE44CA71DFC2364C8BF2582891.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap'
+[2017.05.06-04.54.22:759][189]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap
+[2017.05.06-04.54.22:788][189]LogFileHelpers: Saving map 'LevelOne' took 0.209
+[2017.05.06-04.54.22:790][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_BowCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_BowCharacter.uasset" SILENT=true
+[2017.05.06-04.54.22:824][189]LogSavePackage: Save=31.83ms
+[2017.05.06-04.54.22:824][189]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_BowCharacterF343856744E9F7FDFFAA8CA87479E465.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_BowCharacter.uasset'
+[2017.05.06-04.54.22:825][189]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_BowCharacter.uasset
+[2017.05.06-04.55.25:189][753]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-04.55.26:916][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-04.55.27:064][805]LogSavePackage: Save=125.75ms
+[2017.05.06-04.55.27:064][805]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/LevelOne3E6E22B743D4C1D38F6462AD658427F6.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap'
+[2017.05.06-04.55.27:065][805]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap
+[2017.05.06-04.55.27:093][805]LogFileHelpers: Saving map 'LevelOne' took 0.221
+[2017.05.06-04.55.27:106][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-04.55.27:152][805]LogSavePackage: Save=43.76ms
+[2017.05.06-04.55.27:152][805]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacterF790F8014AFC11E1D5A734907A92A547.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-04.55.27:154][805]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-04.56.00:753][399]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-04.56.02:372][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-04.56.02:422][452]LogSavePackage: Save=47.10ms
+[2017.05.06-04.56.02:422][452]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacterFFC43E7F4595A13ADCEDBF93A1578BF0.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-04.56.02:423][452]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-04.56.46:023][763]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-04.56.46:655][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-04.56.46:700][781]LogSavePackage: Save=43.14ms
+[2017.05.06-04.56.46:700][781]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUG723CEE86422C48A65634ADB82B0AAE5F.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-04.56.46:703][781]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-04.57.04:659][821]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-04.57.05:069][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-04.57.05:088][836]LogSavePackage: Save=11.93ms
+[2017.05.06-04.57.05:088][836]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUGCEFC32294207D234B7DC41B19219FC5A.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-04.57.05:090][836]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-04.57.46:132][100]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-04.57.46:138][100]LogBlueprint:Error: [Compiler UI_DEBUG] Error The type of  Object  is undetermined.  Connect something to  Cast To BaseCharacter  to imply a specific type.
+[2017.05.06-04.57.46:138][100]LogBlueprint:Error: [Compiler UI_DEBUG] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.05.06-04.57.46:305][100]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To BaseCharacter  to imply a specific type.
+[2017.05.06-04.57.46:305][100]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.05.06-04.57.46:305][100]LogBlueprint:Warning: [Compiler UI_DEBUG] Warning [0902.94] Compile of UI_DEBUG failed. 2 Fatal Issue(s) 0 Warning(s) [in 173 ms] (/Game/Blueprints/UI/DEBUG/UI_DEBUG.UI_DEBUG)
+[2017.05.06-04.57.46:829][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-04.57.46:845][121]LogSavePackage: Save=12.83ms
+[2017.05.06-04.57.46:845][121]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUGA620D1744B3F6414184BEDBEAA4DD18F.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-04.57.46:846][121]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-04.57.48:408][214]LogEditorTransaction: Undo Move Node
+[2017.05.06-04.58.41:470][951]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-04.58.41:923][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-04.58.41:940][958]LogSavePackage: Save=14.11ms
+[2017.05.06-04.58.41:940][958]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUG150CD7CD4B5091F0B279978B207B85C8.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-04.58.41:941][958]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-05.00.00:129][ 19]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-05.00.00:608][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-05.00.00:626][ 35]LogSavePackage: Save=15.70ms
+[2017.05.06-05.00.00:626][ 35]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUG88EB30C340F40B3ED0C50D810E6D51C4.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-05.00.00:627][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-05.00.26:351][415]LogEditorTransaction: Undo Add In Parameter
+[2017.05.06-05.00.29:628][606]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-05.00.30:051][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-05.00.30:080][612]LogSavePackage: Save=25.75ms
+[2017.05.06-05.00.30:080][612]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUGB59F2F5B48CA1C61892927BB687A8FBB.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-05.00.30:082][612]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-05.01.04:107][425]BlueprintLog: New page: Compile BP_ShieldCharacter
+[2017.05.06-05.01.04:762][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_ShieldCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset" SILENT=true
+[2017.05.06-05.01.04:808][451]LogSavePackage: Save=37.34ms
+[2017.05.06-05.01.04:808][451]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldCharacter1F9765354F5677BE662074B700235A01.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset'
+[2017.05.06-05.01.04:809][451]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset
+[2017.05.06-05.01.05:715][501]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.01.05:741][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.05:741][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.01.05:741][501]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:01:05 PM)
+[2017.05.06-05.01.05:741][501]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.01.05:744][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002837s)
+[2017.05.06-05.01.05:744][501]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.01.05:745][501]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2017.05.06-05.01.05:745][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003942s)
+[2017.05.06-05.01.05:768][501]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.01.05:782][501]LogInit: FAudioDevice initialized.
+[2017.05.06-05.01.05:816][501]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.01.05:819][501]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.01.05
+[2017.05.06-05.01.05:820][501]LogWorld: Bringing up level for play took: 0.002314
+[2017.05.06-05.01.05:820][501]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.01.05:821][501]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.01.05:822][501]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.01.05:822][501]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.54
+[2017.05.06-05.01.05:823][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.06:456][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.06:553][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.07:505][583]LogEditorViewport: Clicking on Actor (LMB): BP_BowCharacter_C (BP_BowCharacter)
+[2017.05.06-05.01.08:041][615]Cmd: DELETE
+[2017.05.06-05.01.08:041][615]Cmd: ACTOR DELETE
+[2017.05.06-05.01.08:042][615]LogEditorActor: Deleted Actor: BP_BowCharacter_C
+[2017.05.06-05.01.08:059][615]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.05.06-05.01.11:440][813]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.06-05.01.12:168][855]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.01.12:188][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.12:188][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.01.12:188][855]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:01:12 PM)
+[2017.05.06-05.01.12:188][855]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.01.12:191][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003085s)
+[2017.05.06-05.01.12:192][855]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.01.12:192][855]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2017.05.06-05.01.12:192][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.004313s)
+[2017.05.06-05.01.12:219][855]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.01.12:228][855]LogInit: FAudioDevice initialized.
+[2017.05.06-05.01.12:260][855]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.01.12:263][855]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.01.12
+[2017.05.06-05.01.12:264][855]LogWorld: Bringing up level for play took: 0.002129
+[2017.05.06-05.01.12:264][855]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.01.12:287][855]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.01.12:289][855]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.01.12:290][855]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.072
+[2017.05.06-05.01.12:291][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.13:331][915]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.13:397][915]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.19:425][274]LogEditorViewport: Clicking on Actor (LMB): BP_ShieldCharacter_C (BP_ShieldCharacter)
+[2017.05.06-05.01.30:381][828]BlueprintLog: New page: Compile BP_ShieldCharacter
+[2017.05.06-05.01.30:852][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_ShieldCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset" SILENT=true
+[2017.05.06-05.01.30:892][838]LogSavePackage: Save=37.53ms
+[2017.05.06-05.01.30:892][838]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldCharacter02EA6BCE41EBE7E82222F3BFDBB3A241.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset'
+[2017.05.06-05.01.30:894][838]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BP_ShieldCharacter.uasset
+[2017.05.06-05.01.32:867][951]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.01.32:883][951]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.32:883][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.01.32:883][951]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:01:32 PM)
+[2017.05.06-05.01.32:883][951]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.01.32:885][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002435s)
+[2017.05.06-05.01.32:886][951]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.01.32:886][951]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2017.05.06-05.01.32:886][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003468s)
+[2017.05.06-05.01.32:905][951]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.01.32:914][951]LogInit: FAudioDevice initialized.
+[2017.05.06-05.01.32:946][951]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.01.32:949][951]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.01.32
+[2017.05.06-05.01.32:950][951]LogWorld: Bringing up level for play took: 0.002045
+[2017.05.06-05.01.32:950][951]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.01.33:018][951]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.01.33:022][951]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.01.33:023][951]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.661
+[2017.05.06-05.01.33:024][951]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.38:949][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.39:047][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.01.40:824][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-05.01.41:024][385]LogSavePackage: Save=145.04ms
+[2017.05.06-05.01.41:025][385]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/LevelOne78D0F06A4F7320726192429BDA66174E.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap'
+[2017.05.06-05.01.41:027][385]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap
+[2017.05.06-05.01.41:054][385]LogFileHelpers: Saving map 'LevelOne' took 0.462
+[2017.05.06-05.01.43:741][448]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.06-05.01.43:810][448]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TOJam2017
+
+[2017.05.06-05.01.43:810][448]LogTemp:Display: CWD: d:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.06-05.01.43:810][448]LogTemp:Display: Initial Dir: d:\Program Files\Epic Games\UE_4.15
+
+[2017.05.06-05.01.43:810][448]LogTemp:Display: Env CWD: d:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.06-05.01.43:810][448]LogTemp:Display: BranchPath = DESKTOP-QN8JF5I/d/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-QN8JF5I/d/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.06-05.01.43:811][448]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\khizer\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.05.06-05.01.43:811][448]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.06-05.01.43:811][448]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.06-05.01.43:811][448]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.06-05.01.43:811][448]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.06-05.01.43:811][448]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.05.06-05.02.05:716][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-05.02.05:865][713]LogSavePackage: Save=127.52ms
+[2017.05.06-05.02.05:865][713]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/LevelOne50B7AC084D089D020B346FA5F826C933.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap'
+[2017.05.06-05.02.05:865][713]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap
+[2017.05.06-05.02.06:304][735]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.02.06:321][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.02.06:321][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.02.06:321][735]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:02:06 PM)
+[2017.05.06-05.02.06:321][735]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.02.06:324][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002587s)
+[2017.05.06-05.02.06:325][735]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.02.06:325][735]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2017.05.06-05.02.06:325][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003613s)
+[2017.05.06-05.02.06:342][735]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.02.06:352][735]LogInit: FAudioDevice initialized.
+[2017.05.06-05.02.06:382][735]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.02.06:385][735]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.02.06
+[2017.05.06-05.02.06:386][735]LogWorld: Bringing up level for play took: 0.002042
+[2017.05.06-05.02.06:386][735]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.02.06:387][735]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.02.06:388][735]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.02.06:389][735]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.026
+[2017.05.06-05.02.06:389][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.02.08:583][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.02.08:702][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.02.22:918][601]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-05.02.23:245][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-05.02.23:269][609]LogSavePackage: Save=16.74ms
+[2017.05.06-05.02.23:269][609]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUG8B271D044548F1D8463056AF18AFE5A5.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-05.02.23:270][609]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-05.02.53:138][153]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-05.02.53:418][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-05.02.53:448][154]LogSavePackage: Save=26.52ms
+[2017.05.06-05.02.53:448][154]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUGE8A52EEC4782C5964F5DAC9DEC115699.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-05.02.53:450][154]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-05.02.54:256][196]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.02.54:285][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.02.54:285][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.02.54:285][196]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:02:54 PM)
+[2017.05.06-05.02.54:285][196]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.02.54:289][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003613s)
+[2017.05.06-05.02.54:290][196]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.02.54:290][196]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2017.05.06-05.02.54:290][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.004976s)
+[2017.05.06-05.02.54:314][196]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.02.54:327][196]LogInit: FAudioDevice initialized.
+[2017.05.06-05.02.54:362][196]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.02.54:366][196]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.02.54
+[2017.05.06-05.02.54:367][196]LogWorld: Bringing up level for play took: 0.002509
+[2017.05.06-05.02.54:367][196]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.02.54:368][196]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.02.54:370][196]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.02.54:370][196]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.008
+[2017.05.06-05.02.54:371][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.02.57:069][355]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.02.57:205][355]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.04.47:022][131]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.06-05.04.47:110][131]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TOJam2017
+
+[2017.05.06-05.04.47:110][131]LogTemp:Display: CWD: d:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.06-05.04.47:110][131]LogTemp:Display: Initial Dir: d:\Program Files\Epic Games\UE_4.15
+
+[2017.05.06-05.04.47:110][131]LogTemp:Display: Env CWD: d:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.06-05.04.47:110][131]LogTemp:Display: BranchPath = DESKTOP-QN8JF5I/d/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-QN8JF5I/d/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.06-05.04.47:111][131]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\khizer\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.05.06-05.04.47:112][131]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.06-05.04.47:112][131]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.06-05.04.47:112][131]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.06-05.04.47:112][131]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.06-05.04.47:112][131]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.05.06-05.05.44:830][426]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-05.05.46:789][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-05.05.46:888][458]LogSavePackage: Save=80.63ms
+[2017.05.06-05.05.46:888][458]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacter9C0D180E41BD85BD24876D9CA6344339.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-05.05.46:890][458]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-05.05.47:636][493]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.05.47:680][493]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.05.47:680][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.05.47:680][493]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:05:47 PM)
+[2017.05.06-05.05.47:680][493]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.05.47:684][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003850s)
+[2017.05.06-05.05.47:685][493]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.05.47:685][493]LogPlayLevel: PIE: World Init took: (0.001317s)
+[2017.05.06-05.05.47:686][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.005533s)
+[2017.05.06-05.05.47:713][493]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.05.47:729][493]LogInit: FAudioDevice initialized.
+[2017.05.06-05.05.47:762][493]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.05.47:766][493]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.05.47
+[2017.05.06-05.05.47:766][493]LogWorld: Bringing up level for play took: 0.002687
+[2017.05.06-05.05.47:767][493]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.05.47:768][493]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.05.47:770][493]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.05.47:770][493]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.592
+[2017.05.06-05.05.47:771][493]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.05.55:381][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.05.55:534][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.06.55:023][170]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-05.06.56:755][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-05.06.56:805][210]LogSavePackage: Save=46.24ms
+[2017.05.06-05.06.56:805][210]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacter6DDBC8054F5548D410FFF3A269836029.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-05.06.56:806][210]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-05.07.09:820][989]LogEditorTransaction: Undo Move Node
+[2017.05.06-05.07.35:873][536]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-05.07.36:596][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-05.07.36:643][536]LogSavePackage: Save=44.50ms
+[2017.05.06-05.07.36:643][536]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacter6635C6494260A5D1A280B3B1507BBC80.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-05.07.36:645][536]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-05.07.37:761][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-05.07.37:802][596]LogSavePackage: Save=38.49ms
+[2017.05.06-05.07.37:802][596]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacterFAEE3F8149A49C13BAC232AF171D0552.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-05.07.37:803][596]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-05.07.38:600][633]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.07.38:621][633]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.07.38:621][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.07.38:621][633]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:07:38 PM)
+[2017.05.06-05.07.38:621][633]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.07.38:624][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002990s)
+[2017.05.06-05.07.38:625][633]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.07.38:626][633]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2017.05.06-05.07.38:626][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.004392s)
+[2017.05.06-05.07.38:651][633]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.07.38:665][633]LogInit: FAudioDevice initialized.
+[2017.05.06-05.07.38:695][633]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.07.38:698][633]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.07.38
+[2017.05.06-05.07.38:699][633]LogWorld: Bringing up level for play took: 0.002276
+[2017.05.06-05.07.38:699][633]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.07.38:700][633]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.07.38:701][633]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.07.38:702][633]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.339
+[2017.05.06-05.07.38:702][633]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.07.44:353][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.07.44:448][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.07.46:278][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-05.07.46:462][ 51]LogSavePackage: Save=136.48ms
+[2017.05.06-05.07.46:462][ 51]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/LevelOneF40D20234D8A94E9ED5AA7B043E26410.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap'
+[2017.05.06-05.07.46:464][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap
+[2017.05.06-05.07.46:494][ 51]LogFileHelpers: Saving map 'LevelOne' took 0.499
+[2017.05.06-05.08.38:505][ 68]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-05.08.38:848][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-05.08.38:909][ 78]LogSavePackage: Save=53.35ms
+[2017.05.06-05.08.38:909][ 78]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUGADC42BC94D3E4B77567A588A3778C485.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-05.08.38:912][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-05.09.35:964][371]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-05.09.36:336][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-05.09.36:356][383]LogSavePackage: Save=17.72ms
+[2017.05.06-05.09.36:356][383]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUGF7C56A5D471CF90AB314BDB27AF5435C.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-05.09.36:358][383]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-05.09.51:259][226]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.09.51:277][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.09.51:277][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.09.51:277][226]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:09:51 PM)
+[2017.05.06-05.09.51:277][226]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.09.51:280][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002564s)
+[2017.05.06-05.09.51:281][226]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.09.51:281][226]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2017.05.06-05.09.51:281][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003868s)
+[2017.05.06-05.09.51:300][226]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.09.51:311][226]LogInit: FAudioDevice initialized.
+[2017.05.06-05.09.51:350][226]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.09.51:358][226]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.09.51
+[2017.05.06-05.09.51:359][226]LogWorld: Bringing up level for play took: 0.005045
+[2017.05.06-05.09.51:360][226]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.09.51:362][226]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.09.51:365][226]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.09.51:366][226]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 1.003
+[2017.05.06-05.09.51:367][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.10.05:811][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.10.05:916][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.10.56:747][ 74]BlueprintLog: New page: Compile UI_DEBUG
+[2017.05.06-05.10.57:139][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/DEBUG/UI_DEBUG" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset" SILENT=true
+[2017.05.06-05.10.57:163][ 87]LogSavePackage: Save=20.99ms
+[2017.05.06-05.10.57:163][ 87]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/UI_DEBUG2CA9710F4E9492B860A7919CD04E64E1.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset'
+[2017.05.06-05.10.57:165][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset
+[2017.05.06-05.10.57:692][118]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.10.57:710][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.10.57:710][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.10.57:710][118]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:10:57 PM)
+[2017.05.06-05.10.57:710][118]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.10.57:713][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002456s)
+[2017.05.06-05.10.57:713][118]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.10.57:713][118]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2017.05.06-05.10.57:714][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003511s)
+[2017.05.06-05.10.57:732][118]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.10.57:742][118]LogInit: FAudioDevice initialized.
+[2017.05.06-05.10.57:773][118]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.10.57:776][118]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.10.57
+[2017.05.06-05.10.57:777][118]LogWorld: Bringing up level for play took: 0.002165
+[2017.05.06-05.10.57:777][118]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.10.57:778][118]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.10.57:779][118]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.10.57:779][118]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.583
+[2017.05.06-05.10.57:779][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.11.06:007][611]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.11.06:114][611]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.11.13:758][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_61:PersistentLevel.Actor_8.DebugSkelMeshComponent_15) Already registered. Aborting.
+[2017.05.06-05.11.13:877][ 58]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_61:PersistentLevel.Actor_8.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2017.05.06-05.11.24:703][680]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_63:PersistentLevel.Actor_9.DebugSkelMeshComponent_17) Already registered. Aborting.
+[2017.05.06-05.11.24:740][680]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_63:PersistentLevel.Actor_9.DebugSkelMeshComponent_17) - call TermArticulated first.
+[2017.05.06-05.11.32:434][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_65:PersistentLevel.Actor_10.DebugSkelMeshComponent_19) Already registered. Aborting.
+[2017.05.06-05.11.32:471][125]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_65:PersistentLevel.Actor_10.DebugSkelMeshComponent_19) - call TermArticulated first.
+[2017.05.06-05.11.55:386][489]LogContentBrowser:Verbose: The majority of assets in the view are of type: BlendSpace1D
+[2017.05.06-05.12.04:905][ 53]LogSavePackage: Save=12.98ms
+[2017.05.06-05.12.04:905][ 53]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/animWalkShieldGuyC8DD438A46C35BF900D7B1B735774057.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animWalkShieldGuy.uasset'
+[2017.05.06-05.12.04:906][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animWalkShieldGuy.uasset
+[2017.05.06-05.12.07:353][200]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.12.07:371][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.12.07:371][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.12.07:371][200]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:12:07 PM)
+[2017.05.06-05.12.07:371][200]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.12.07:374][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002444s)
+[2017.05.06-05.12.07:374][200]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.12.07:375][200]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2017.05.06-05.12.07:375][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003733s)
+[2017.05.06-05.12.07:396][200]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.12.07:406][200]LogInit: FAudioDevice initialized.
+[2017.05.06-05.12.07:439][200]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.12.07:443][200]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.12.07
+[2017.05.06-05.12.07:443][200]LogWorld: Bringing up level for play took: 0.002162
+[2017.05.06-05.12.07:443][200]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.12.07:444][200]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.12.07:445][200]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.12.07:446][200]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.917
+[2017.05.06-05.12.07:446][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.12.11:992][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.12.12:098][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.12.32:531][676]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_67:PersistentLevel.Actor_11.DebugSkelMeshComponent_21) Already registered. Aborting.
+[2017.05.06-05.12.32:568][676]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_67:PersistentLevel.Actor_11.DebugSkelMeshComponent_21) - call TermArticulated first.
+[2017.05.06-05.12.45:104][412]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_69:PersistentLevel.Actor_12.DebugSkelMeshComponent_23) Already registered. Aborting.
+[2017.05.06-05.12.45:141][412]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_69:PersistentLevel.Actor_12.DebugSkelMeshComponent_23) - call TermArticulated first.
+[2017.05.06-05.14.17:853][956]LogSavePackage: Save=13.15ms
+[2017.05.06-05.14.17:853][956]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/animWalkShieldGuyB11091D340C998CC1FA8B6BBBACA13FF.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animWalkShieldGuy.uasset'
+[2017.05.06-05.14.17:855][956]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/Animations/animWalkShieldGuy.uasset
+[2017.05.06-05.14.19:344][ 41]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.14.19:363][ 41]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.14.19:363][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.14.19:363][ 41]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:14:19 PM)
+[2017.05.06-05.14.19:363][ 41]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.14.19:366][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002589s)
+[2017.05.06-05.14.19:367][ 41]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.14.19:367][ 41]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2017.05.06-05.14.19:367][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003683s)
+[2017.05.06-05.14.19:389][ 41]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.14.19:398][ 41]LogInit: FAudioDevice initialized.
+[2017.05.06-05.14.19:433][ 41]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.14.19:436][ 41]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.14.19
+[2017.05.06-05.14.19:436][ 41]LogWorld: Bringing up level for play took: 0.002112
+[2017.05.06-05.14.19:436][ 41]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.14.19:437][ 41]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.14.19:438][ 41]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.14.19:439][ 41]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 1.076
+[2017.05.06-05.14.19:439][ 41]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.14.24:300][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.14.24:407][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.14.25:067][362]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_71:PersistentLevel.Actor_13.DebugSkelMeshComponent_25) Already registered. Aborting.
+[2017.05.06-05.14.25:105][362]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_71:PersistentLevel.Actor_13.DebugSkelMeshComponent_25) - call TermArticulated first.
+[2017.05.06-05.14.34:207][897]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.14.34:226][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.14.34:226][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.14.34:226][897]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:14:34 PM)
+[2017.05.06-05.14.34:226][897]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.14.34:228][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002147s)
+[2017.05.06-05.14.34:229][897]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.14.34:229][897]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2017.05.06-05.14.34:229][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003223s)
+[2017.05.06-05.14.34:247][897]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.14.34:257][897]LogInit: FAudioDevice initialized.
+[2017.05.06-05.14.34:285][897]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.14.34:288][897]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.14.34
+[2017.05.06-05.14.34:289][897]LogWorld: Bringing up level for play took: 0.002202
+[2017.05.06-05.14.34:289][897]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.14.34:290][897]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.14.34:291][897]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.14.34:291][897]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.071
+[2017.05.06-05.14.34:291][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.14.39:853][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.14.39:953][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.14.44:410][485]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_74:PersistentLevel.Actor_14.DebugSkelMeshComponent_27) Already registered. Aborting.
+[2017.05.06-05.14.44:533][485]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_74:PersistentLevel.Actor_14.DebugSkelMeshComponent_27) - call TermArticulated first.
+[2017.05.06-05.14.50:998][857]BlueprintLog: New page: Compile BP_ShieldAnim
+[2017.05.06-05.14.51:831][898]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.14.51:849][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.14.51:849][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.14.51:849][898]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:14:51 PM)
+[2017.05.06-05.14.51:849][898]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.14.51:852][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002153s)
+[2017.05.06-05.14.51:852][898]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.14.51:852][898]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2017.05.06-05.14.51:853][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003136s)
+[2017.05.06-05.14.51:871][898]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.14.51:880][898]LogInit: FAudioDevice initialized.
+[2017.05.06-05.14.51:922][898]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.14.51:931][898]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.14.51
+[2017.05.06-05.14.51:932][898]LogWorld: Bringing up level for play took: 0.005959
+[2017.05.06-05.14.51:933][898]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.14.51:935][898]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.14.51:938][898]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.14.51:940][898]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne -0.423
+[2017.05.06-05.14.51:941][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.15.07:671][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.15.07:776][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.15.09:435][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/ShieldGuy/BP_ShieldAnim" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset" SILENT=true
+[2017.05.06-05.15.09:507][925]LogSavePackage: Save=58.06ms
+[2017.05.06-05.15.09:507][925]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldAnim7E531A5A49BF962FD0B4E19511478CAB.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset'
+[2017.05.06-05.15.09:508][925]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset
+[2017.05.06-05.15.36:819][545]BlueprintLog: New page: Compile BP_ShieldAnim
+[2017.05.06-05.15.47:748][177]BlueprintLog: New page: Compile BP_ShieldAnim
+[2017.05.06-05.15.48:924][233]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.15.48:943][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.15.48:943][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.15.48:943][233]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:15:48 PM)
+[2017.05.06-05.15.48:944][233]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.15.48:946][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002439s)
+[2017.05.06-05.15.48:947][233]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.15.48:947][233]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2017.05.06-05.15.48:947][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.003604s)
+[2017.05.06-05.15.48:966][233]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.15.48:975][233]LogInit: FAudioDevice initialized.
+[2017.05.06-05.15.49:008][233]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.15.49:012][233]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.15.49
+[2017.05.06-05.15.49:013][233]LogWorld: Bringing up level for play took: 0.002272
+[2017.05.06-05.15.49:013][233]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.15.49:014][233]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.15.49:015][233]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.15.49:016][233]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.653
+[2017.05.06-05.15.49:016][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.16.07:436][337]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.16.07:553][337]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.16.09:761][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/ShieldGuy/BP_ShieldAnim" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset" SILENT=true
+[2017.05.06-05.16.09:823][453]LogSavePackage: Save=59.16ms
+[2017.05.06-05.16.09:823][453]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BP_ShieldAnim3A8447654A8EC062B9E0F5A0CB08A8CE.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset'
+[2017.05.06-05.16.09:824][453]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/ShieldGuy/BP_ShieldAnim.uasset
+[2017.05.06-05.16.15:139][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.06-05.16.23:143][ 82]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_19' or package '/Engine/Transient'.
+[2017.05.06-05.16.23:143][ 82]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_23' or package '/Engine/Transient'.
+[2017.05.06-05.16.23:143][ 82]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_8' or package '/Engine/Transient'.
+[2017.05.06-05.16.23:144][ 82]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_6' or package '/Engine/Transient'.
+[2017.05.06-05.27.20:508][986]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-05.27.20:530][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.27.20:530][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-05.27.20:530][986]PIE: New page: PIE session: LevelOne (May 5, 2017, 9:27:20 PM)
+[2017.05.06-05.27.20:531][986]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2017.05.06-05.27.20:534][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003234s)
+[2017.05.06-05.27.20:536][986]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.06-05.27.20:536][986]LogPlayLevel: PIE: World Init took: (0.001995s)
+[2017.05.06-05.27.20:536][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.005588s)
+[2017.05.06-05.27.20:554][986]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-05.27.20:567][986]LogInit: FAudioDevice initialized.
+[2017.05.06-05.27.20:597][986]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-05.27.20:601][986]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.06-01.27.20
+[2017.05.06-05.27.20:601][986]LogWorld: Bringing up level for play took: 0.002789
+[2017.05.06-05.27.20:601][986]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.27.20:602][986]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-05.27.20:603][986]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-05.27.20:604][986]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LevelOne 0.242
+[2017.05.06-05.27.20:604][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.27.24:000][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.27.24:097][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.06-05.33.35:142][153]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-05.33.36:628][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-05.33.36:690][194]LogSavePackage: Save=47.71ms
+[2017.05.06-05.33.36:690][194]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacter1D1930E144698F8922BEF1B74DD6C593.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-05.33.36:691][194]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-05.34.54:961][856]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-05.34.55:530][856]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.BP_ShieldCharacter_64.CollisionCylinder is already used by CapsuleComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.REINST_BP_ShieldCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.06-05.34.55:530][856]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.BP_ShieldCharacter_64.Arrow is already used by ArrowComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.REINST_BP_ShieldCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.06-05.34.55:530][856]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.BP_ShieldCharacter_64.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.REINST_BP_ShieldCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.06-05.34.55:530][856]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.BP_ShieldCharacter_64.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/LevelOne.LevelOne:PersistentLevel.REINST_BP_ShieldCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.06-05.34.56:282][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-05.34.56:331][856]LogSavePackage: Save=46.69ms
+[2017.05.06-05.34.56:331][856]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacterF53E7B9D4D4D2044999835ADA2B8440D.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-05.34.56:333][856]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-05.34.56:903][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-05.34.56:945][884]LogSavePackage: Save=39.78ms
+[2017.05.06-05.34.56:945][884]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacterD942E36F46F4FAA83460B4BC52A4CB33.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-05.34.56:946][884]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-05.34.58:377][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LevelOne" FILE="../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-05.34.58:583][963]LogSavePackage: Save=181.44ms
+[2017.05.06-05.34.58:583][963]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/LevelOneD2C2CB0E4AC8EB28F4F51A97E59A180F.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap'
+[2017.05.06-05.34.58:584][963]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Maps/LevelOne.umap
+[2017.05.06-05.34.58:612][963]LogFileHelpers: Saving map 'LevelOne' took 0.281
+[2017.05.06-05.35.03:668][259]BlueprintLog: New page: Compile BaseCharacter
+[2017.05.06-05.35.04:961][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-05.35.05:011][259]LogSavePackage: Save=47.27ms
+[2017.05.06-05.35.05:011][259]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacter18BB3C3D4E5C759A9409F992004DF438.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-05.35.05:012][259]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-05.35.05:233][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-05.35.05:275][266]LogSavePackage: Save=39.41ms
+[2017.05.06-05.35.05:275][266]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacterBF59EC2948B2D9760EAFE4B9765CCC8A.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-05.35.05:275][266]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
+[2017.05.06-05.35.05:510][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BaseCharacter" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset" SILENT=true
+[2017.05.06-05.35.05:553][277]LogSavePackage: Save=40.37ms
+[2017.05.06-05.35.05:553][277]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/BaseCharacter70EE706546E4C7F59CBF4A87B179A5D6.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset'
+[2017.05.06-05.35.05:553][277]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Characters/BaseCharacter.uasset
