@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-F4344A61480FDC30F2EF869D95738626_0001</CrashGUID>
+		<ProcessId>6312</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>109</SecondsSinceStart>
+		<GameName>UE4-TOJam2017</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.2-3416026+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;D:\ToJamProject\TOJAM17\TOJam2017.uproject&quot;</CommandLine>
+		<LanguageLCID>4105</LanguageLCID>
+		<AppDefaultLocale>en_CA</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3416026</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>khizer</UserName>
+		<BaseDir>d:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>d:/Program Files/Epic Games/UE_4.15/</RootDir>
+		<MachineId>C5B402CF49C63DACE635BA838D11588F</MachineId>
+		<LoginId>c5b402cf49c63dace635ba838d11588f</LoginId>
+		<EpicAccountId>96dae05c1d2b439eb3e9c8ed0f078533</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint>Layout=&quot;LevelEditorViewport&quot; Label=&quot;Viewport 1&quot; Content=SViewportsOverlay</UserActivityHint>
+		<ErrorMessage>Assertion failed: WorldContext.World()-&gt;GetOutermost()-&gt;HasAnyPackageFlags(PKG_PlayInEditor) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp] [Line: 10108] &nl;&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-4702MQ CPU @ 2.20GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 4600</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>8229597184</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>3447885824</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140734734852096</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1382141952</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1403805696</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1930465280</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1962786816</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636296973317230000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
