@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 ﻿Log file open, 05/05/17 18:01:01
 LogInit:Display: Running engine for game: TOJam2017
 LogPlatformFile: Not using cached read wrapper
@@ -5852,5 +5851,3 @@ Sword_joint
 [2017.05.05-23.29.52:464][647]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_15.DebugSkelMeshComponent_42) Already registered. Aborting.
 [2017.05.05-23.29.52:502][647]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_47:PersistentLevel.Actor_15.DebugSkelMeshComponent_42) - call TermArticulated first.
 >>>>>>> 7e20e26c29da60b96dff550abbdac02a522abec3
-=======
->>>>>>> b8e2b0ab1e56ba57889cc7e4cf80832c8e90166d
