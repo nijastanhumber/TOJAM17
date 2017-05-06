@@ -7276,3 +7276,490 @@ Exception rethrown at [0]:
 [2017.05.06-15.58.30:040][347]LogOutputDevice:Error: ntdll.dll!0x000000003D5470D1
 [2017.05.06-15.58.30:040][347]LogOutputDevice:Error: 
 [2017.05.06-15.58.30:042][347]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.06-15.58.40:461][347]LogStats:                    SendNewReport - 10.420 s
+[2017.05.06-15.58.40:462][347]LogStats:             FDebug::EnsureFailed - 12.239 s
+[2017.05.06-15.59.18:067][347]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.05.06-15.59.18:475][347]SourceControl: Info [master ea015d1] Latest changes
+[2017.05.06-15.59.18:475][347]SourceControl: Info  27 files changed, 26 insertions(+), 16 deletions(-)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Blueprints/BP_GameMode.uasset (87%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Blueprints/Characters/BP_BowCharacter.uasset (88%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Blueprints/Characters/BP_ShieldCharacter.uasset (86%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Blueprints/Characters/BaseCharacter.uasset (76%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Blueprints/Characters/BowGuy/Animations/Idle_Run.uasset (98%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Blueprints/Characters/BowGuy/BP_BowAnim.uasset (84%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Blueprints/Mirror/BP_Mirror.uasset (77%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Blueprints/Projectile/BP_Projectile.uasset (90%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Blueprints/Target/BP_Target.uasset (96%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/Target/Test/Material.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/Target/Test/Rock.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/Target/Test/Rock_Circle_000.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/Target/Test/Rock_Rock.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/Target/Test/Rock_Rune.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/Target/Test/Rock_Sphere_000.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/Target/Test/Rune.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/Target/Test/StoneRune.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Blueprints/UI/DEBUG/UI_DEBUG.uasset (89%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/UI/UI_MainMenu.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/UI/UI_WinLoSe.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Blueprints/UI/UI_WinLoe.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Maps/Level1.umap
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Maps/Level2.umap
+[2017.05.06-15.59.18:475][347]SourceControl: Info  create mode 100644 Content/Maps/Level2_BuiltData.uasset
+[2017.05.06-15.59.18:475][347]SourceControl: Info  rewrite Content/Maps/LevelOne.umap (99%)
+[2017.05.06-15.59.18:475][347]SourceControl: Info  copy Content/Maps/{LevelOne.umap => MainMenu.umap} (91%)
+[2017.05.06-15.59.18:480][347]SourceControl: Info Commited [master ea015d1] Latest changes.
+[2017.05.06-16.01.44:164][ 99]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-16.01.44:188][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.05.06-16.01.44:188][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-16.01.44:188][ 99]PIE: New page: PIE session: Level1 (May 6, 2017, 8:01:44 AM)
+[2017.05.06-16.01.44:188][ 99]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2017.05.06-16.01.44:245][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057011s)
+[2017.05.06-16.01.44:247][ 99]LogAIModule: Creating AISystem for world Level1
+[2017.05.06-16.01.44:247][ 99]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2017.05.06-16.01.44:247][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.059031s)
+[2017.05.06-16.01.44:273][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-16.01.44:284][ 99]LogInit: FAudioDevice initialized.
+[2017.05.06-16.01.44:322][ 99]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-16.01.44:332][ 99]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2017.05.06-12.01.44
+[2017.05.06-16.01.44:334][ 99]LogWorld: Bringing up level for play took: 0.008006
+[2017.05.06-16.01.44:335][ 99]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-16.01.44:339][ 99]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-16.01.44:342][ 99]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-16.01.44:344][ 99]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.428
+[2017.05.06-16.01.44:345][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.05.06-16.01.45:387][155]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.05.06-16.01.45:432][155]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.05.06-16.01.48:849][357]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.06-16.01.48:868][357]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.05.06-16.01.48:868][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.06-16.01.48:868][357]PIE: New page: PIE session: Level1 (May 6, 2017, 8:01:48 AM)
+[2017.05.06-16.01.48:868][357]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2017.05.06-16.01.48:945][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076303s)
+[2017.05.06-16.01.48:946][357]LogAIModule: Creating AISystem for world Level1
+[2017.05.06-16.01.48:946][357]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2017.05.06-16.01.48:947][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.077968s)
+[2017.05.06-16.01.48:969][357]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.06-16.01.48:980][357]LogInit: FAudioDevice initialized.
+[2017.05.06-16.01.49:011][357]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-16.01.49:015][357]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2017.05.06-12.01.49
+[2017.05.06-16.01.49:015][357]LogWorld: Bringing up level for play took: 0.002646
+[2017.05.06-16.01.49:016][357]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-16.01.49:017][357]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-16.01.49:018][357]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-16.01.49:019][357]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.104
+[2017.05.06-16.01.49:019][357]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.05.06-16.01.53:248][608]LogBlueprintUserMessages: [BP_Projectile_C_0] HitTarget!
+[2017.05.06-16.01.53:248][608]LogBlueprintUserMessages: [BP_GameMode_C_0] All targets destroyed
+[2017.05.06-16.01.53:265][609]LogNet: Browse: /Game/Maps/Level2
+[2017.05.06-16.01.53:265][609]LogLoad: LoadMap: /Game/Maps/Level2
+[2017.05.06-16.01.53:285][609]Cmd: MEM
+[2017.05.06-16.01.53:300][609]LogMemory: Platform Memory Stats for Windows
+[2017.05.06-16.01.53:300][609]LogMemory: Process Physical Memory: 1434.84 MB used, 2710.88 MB peak
+[2017.05.06-16.01.53:300][609]LogMemory: Process Virtual Memory: 5658.11 MB used, 6054.29 MB peak
+[2017.05.06-16.01.53:300][609]LogMemory: Physical Memory: 5623.27 MB used,  2225.08 MB free, 7848.36 MB total
+[2017.05.06-16.01.53:300][609]LogMemory: Virtual Memory: 7232.21 MB used,  2225.08 MB free, 134217728.00 MB total
+[2017.05.06-16.01.53:300][609]LogMemory: 
+[2017.05.06-16.01.53:300][609]Allocator Stats for TBB: (not implemented)
+[2017.05.06-16.01.54:918][609]LogAIModule: Creating AISystem for world Level2
+[2017.05.06-16.01.54:919][609]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-16.01.54:927][609]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2017.05.06-12.01.54
+[2017.05.06-16.01.54:927][609]LogWorld: Bringing up level for play took: 0.007197
+[2017.05.06-16.01.54:928][609]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-16.01.54:928][609]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-16.01.54:930][609]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-16.01.54:930][609]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.05.06-16.01.54:930][609]LogLoad: Took 1.665387 seconds to LoadMap(/Game/Maps/Level2)
+[2017.05.06-16.01.54:977][610]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'BP_BowCharacter_119', movement 'Walking'
+[2017.05.06-16.02.05:292][229]LogBlueprintUserMessages: [BP_Projectile_C_0] HitTarget!
+[2017.05.06-16.02.05:292][229]LogBlueprintUserMessages: [BP_GameMode_C_0] All targets destroyed
+[2017.05.06-16.02.05:309][230]LogNet: Browse: /Game/Maps/Level2
+[2017.05.06-16.02.05:309][230]LogLoad: LoadMap: /Game/Maps/Level2
+[2017.05.06-16.02.05:328][230]Cmd: MEM
+[2017.05.06-16.02.05:343][230]LogMemory: Platform Memory Stats for Windows
+[2017.05.06-16.02.05:343][230]LogMemory: Process Physical Memory: 1361.89 MB used, 2710.88 MB peak
+[2017.05.06-16.02.05:343][230]LogMemory: Process Virtual Memory: 5605.17 MB used, 6054.29 MB peak
+[2017.05.06-16.02.05:343][230]LogMemory: Physical Memory: 5459.24 MB used,  2389.11 MB free, 7848.36 MB total
+[2017.05.06-16.02.05:343][230]LogMemory: Virtual Memory: 7211.40 MB used,  2389.11 MB free, 134217728.00 MB total
+[2017.05.06-16.02.05:343][230]LogMemory: 
+[2017.05.06-16.02.05:343][230]Allocator Stats for TBB: (not implemented)
+[2017.05.06-16.02.05:430][230]LogAIModule: Creating AISystem for world Level2
+[2017.05.06-16.02.05:431][230]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-16.02.05:436][230]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2017.05.06-12.02.05
+[2017.05.06-16.02.05:437][230]LogWorld: Bringing up level for play took: 0.005087
+[2017.05.06-16.02.05:437][230]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-16.02.05:437][230]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-16.02.05:439][230]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-16.02.05:439][230]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.05.06-16.02.05:439][230]LogLoad: Took 0.129563 seconds to LoadMap(/Game/Maps/Level2)
+[2017.05.06-16.02.10:189][514]LogBlueprintUserMessages: [BP_Projectile_C_0] HitTarget!
+[2017.05.06-16.02.10:189][514]LogBlueprintUserMessages: [BP_GameMode_C_0] All targets destroyed
+[2017.05.06-16.02.10:206][515]LogNet: Browse: /Game/Maps/Level2
+[2017.05.06-16.02.10:206][515]LogLoad: LoadMap: /Game/Maps/Level2
+[2017.05.06-16.02.10:224][515]Cmd: MEM
+[2017.05.06-16.02.10:239][515]LogMemory: Platform Memory Stats for Windows
+[2017.05.06-16.02.10:239][515]LogMemory: Process Physical Memory: 1365.75 MB used, 2710.88 MB peak
+[2017.05.06-16.02.10:239][515]LogMemory: Process Virtual Memory: 5613.20 MB used, 6054.29 MB peak
+[2017.05.06-16.02.10:239][515]LogMemory: Physical Memory: 5476.59 MB used,  2371.77 MB free, 7848.36 MB total
+[2017.05.06-16.02.10:239][515]LogMemory: Virtual Memory: 7168.46 MB used,  2371.77 MB free, 134217728.00 MB total
+[2017.05.06-16.02.10:239][515]LogMemory: 
+[2017.05.06-16.02.10:239][515]Allocator Stats for TBB: (not implemented)
+[2017.05.06-16.02.10:325][515]LogAIModule: Creating AISystem for world Level2
+[2017.05.06-16.02.10:325][515]LogLoad: Game class is 'BP_GameMode_C'
+[2017.05.06-16.02.10:330][515]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2017.05.06-12.02.10
+[2017.05.06-16.02.10:331][515]LogWorld: Bringing up level for play took: 0.004846
+[2017.05.06-16.02.10:331][515]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-16.02.10:331][515]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.05.06-16.02.10:333][515]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.06-16.02.10:333][515]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.05.06-16.02.10:333][515]LogLoad: Took 0.126523 seconds to LoadMap(/Game/Maps/Level2)
+[2017.05.06-16.02.13:083][679]LogBlueprintUserMessages: [BP_Mirror6] 44.999146
+[2017.05.06-16.02.13:617][711]LogBlueprintUserMessages: [BP_Mirror6] Reached
+[2017.05.06-16.02.16:216][867]LogBlueprintUserMessages: [BP_Projectile_C_0] hit wall
+[2017.05.06-16.02.21:949][211]LogBlueprintUserMessages: [BP_Mirror6] 89.999146
+[2017.05.06-16.02.22:500][244]LogBlueprintUserMessages: [BP_Mirror6] Reached
+[2017.05.06-16.02.23:399][298]LogBlueprintUserMessages: [BP_Mirror6] 44.999146
+[2017.05.06-16.02.23:917][329]LogBlueprintUserMessages: [BP_Mirror6] Reached
+[2017.05.06-16.02.24:333][354]LogBlueprintUserMessages: [BP_Mirror6] -0.000854
+[2017.05.06-16.02.24:850][385]LogBlueprintUserMessages: [BP_Mirror6] Reached
+[2017.05.06-16.02.24:966][392]LogBlueprintUserMessages: [BP_Mirror6] 44.999146
+[2017.05.06-16.02.25:517][425]LogBlueprintUserMessages: [BP_Mirror6] Reached
+[2017.05.06-16.02.29:133][642]LogBlueprintUserMessages: [BP_Mirror6] 89.999146
+[2017.05.06-16.02.29:466][662]LogBlueprintUserMessages: [BP_Mirror5] 135.0
+[2017.05.06-16.02.29:484][663]LogBlueprintUserMessages: [BP_Mirror5] Reached
+[2017.05.06-16.02.29:700][676]LogBlueprintUserMessages: [BP_Mirror6] Reached
+[2017.05.06-16.02.29:833][684]LogBlueprintUserMessages: [BP_Mirror5] 180.0
+[2017.05.06-16.02.29:850][685]LogBlueprintUserMessages: [BP_Mirror5] Reached
+[2017.05.06-16.02.30:150][703]LogBlueprintUserMessages: [BP_Mirror5] 135.0
+[2017.05.06-16.02.30:167][704]LogBlueprintUserMessages: [BP_Mirror5] Reached
+[2017.05.06-16.02.30:633][732]LogBlueprintUserMessages: [BP_Mirror5] 180.0
+[2017.05.06-16.02.30:650][733]LogBlueprintUserMessages: [BP_Mirror5] Reached
+[2017.05.06-16.02.30:983][753]LogBlueprintUserMessages: [BP_Mirror5] 135.0
+[2017.05.06-16.02.31:017][755]LogBlueprintUserMessages: [BP_Mirror5] Reached
+[2017.05.06-16.02.31:416][779]LogBlueprintUserMessages: [BP_Mirror5] 90.0
+[2017.05.06-16.02.31:417][779]LogBlueprintUserMessages: [BP_Mirror5] Reached
+[2017.05.06-16.02.39:400][258]LogBlueprintUserMessages: [BP_Projectile_C_0] hit wall
+[2017.05.06-16.02.42:318][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.05.06-16.02.42:354][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2017.05.06-16.03.13:714][300]LogEditorViewport: Clicking on Actor (LMB): BP_Mirror_C (BP_Mirror6)
+[2017.05.06-16.03.19:314][633]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.06-16.04.31:337][414]LogActorFactory: Actor Factory created Rock_Sphere_000
+[2017.05.06-16.04.31:723][436]LogActorFactory: Actor Factory created Rock_Sphere_000
+[2017.05.06-16.04.32:051][453]Cmd: TRANSACTION UNDO
+[2017.05.06-16.04.32:051][453]LogEditorTransaction: Undo Create Actors
+[2017.05.06-16.04.32:595][482]LogActorFactory: Actor Factory created Rock_Rock
+[2017.05.06-16.04.32:865][498]LogActorFactory: Actor Factory created Rock_Rock
+[2017.05.06-16.04.37:171][751]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.06-16.04.38:540][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rock)
+[2017.05.06-16.04.44:225][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rock)
+[2017.05.06-16.04.44:295][168]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.05.06-16.04.55:309][814]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.05.06-16.04.55:310][814]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.06-16.04.55:310][814]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Normal for /Game/Blueprints/Target/Test/Rune.Rune
+[2017.05.06-16.04.55:438][814]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.05.06-16.04.55:439][814]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.06-16.04.55:439][814]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Normal for /Game/Blueprints/Target/Test/Rune.Rune
+[2017.05.06-16.04.55:439][814]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.04.55:490][814]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.05.06-16.04.55:498][814]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Sampler type is Color, should be Normal for /Game/Blueprints/Target/Test/Rune.Rune
+[2017.05.06-16.05.00:645][112]LogActorFactory: Actor Factory created Rock_Circle_000
+[2017.05.06-16.05.02:841][243]LogActorFactory: Actor Factory created Rock_Circle_000
+[2017.05.06-16.05.09:768][654]Cmd: DELETE
+[2017.05.06-16.05.09:768][654]Cmd: ACTOR DELETE
+[2017.05.06-16.05.09:768][654]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.06-16.05.09:785][654]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.05.06-16.05.10:541][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rock)
+[2017.05.06-16.05.10:664][704]Cmd: DELETE
+[2017.05.06-16.05.10:664][704]Cmd: ACTOR DELETE
+[2017.05.06-16.05.10:664][704]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.06-16.05.10:680][704]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.05.06-16.05.12:458][811]LogActorFactory: Actor Factory created Rock_Rune
+[2017.05.06-16.05.12:458][811]LogActorFactory: Actor Factory created Rock_Rock
+[2017.05.06-16.05.13:059][847]LogActorFactory: Actor Factory created Rock_Rune
+[2017.05.06-16.05.13:096][847]LogActorFactory: Actor Factory created Rock_Rock
+[2017.05.06-16.05.15:341][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.06-16.05.15:862][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rock)
+[2017.05.06-16.05.16:537][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rune)
+[2017.05.06-16.05.21:131][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rock)
+[2017.05.06-16.05.22:540][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rune)
+[2017.05.06-16.05.29:789][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rock)
+[2017.05.06-16.05.36:070][195]LogActorFactory: Actor Factory created Rock_Sphere_000
+[2017.05.06-16.05.36:699][232]LogActorFactory: Actor Factory created Rock_Sphere_000
+[2017.05.06-16.05.39:528][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Sphere_000)
+[2017.05.06-16.05.40:648][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Sphere_000)
+[2017.05.06-16.05.40:954][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rune)
+[2017.05.06-16.05.41:297][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Sphere_000)
+[2017.05.06-16.05.43:232][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rock)
+[2017.05.06-16.05.43:526][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Sphere_000)
+[2017.05.06-16.05.46:194][773]Cmd: DELETE
+[2017.05.06-16.05.46:194][773]Cmd: ACTOR DELETE
+[2017.05.06-16.05.46:195][773]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.06-16.05.46:232][773]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2017.05.06-16.05.50:836][ 49]LogActorFactory: Actor Factory created Rock_Rune
+[2017.05.06-16.05.52:373][141]LogActorFactory: Actor Factory created Rock_Rune
+[2017.05.06-16.05.53:149][184]Cmd: TRANSACTION UNDO
+[2017.05.06-16.05.53:149][184]LogEditorTransaction: Undo Create Actors
+[2017.05.06-16.05.53:189][184]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.05.06-16.05.53:190][184]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.06-16.05.53:190][184]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Normal for /Game/Blueprints/Target/Test/Rune.Rune
+[2017.05.06-16.05.53:190][184]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.05.53:589][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rock)
+[2017.05.06-16.05.54:312][247]Cmd: DELETE
+[2017.05.06-16.05.54:312][247]Cmd: ACTOR DELETE
+[2017.05.06-16.05.54:313][247]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.06-16.05.54:329][247]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.05.06-16.05.54:785][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.06-16.05.55:055][288]Cmd: DELETE
+[2017.05.06-16.05.55:055][288]Cmd: ACTOR DELETE
+[2017.05.06-16.05.55:056][288]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.06-16.05.55:071][288]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.05.06-16.05.56:044][347]Cmd: TRANSACTION UNDO
+[2017.05.06-16.05.56:044][347]LogEditorTransaction: Undo Delete Actors
+[2017.05.06-16.05.56:117][347]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.05.06-16.05.56:118][347]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.06-16.05.56:118][347]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Normal for /Game/Blueprints/Target/Test/Rune.Rune
+[2017.05.06-16.05.56:118][347]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.05.56:561][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rune)
+[2017.05.06-16.05.57:215][407]Cmd: DELETE
+[2017.05.06-16.05.57:215][407]Cmd: ACTOR DELETE
+[2017.05.06-16.05.57:215][407]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.06-16.05.57:232][407]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.05.06-16.05.58:876][506]LogActorFactory: Actor Factory created Rock_Rock
+[2017.05.06-16.05.58:877][506]LogActorFactory: Actor Factory created Rock_Rune
+[2017.05.06-16.05.59:846][564]LogActorFactory: Actor Factory created Rock_Rock
+[2017.05.06-16.05.59:890][564]LogActorFactory: Actor Factory created Rock_Rune
+[2017.05.06-16.06.02:819][734]LogActorFactory: Actor Factory created Rock_Circle_000
+[2017.05.06-16.06.04:828][854]LogActorFactory: Actor Factory created Rock_Circle_000
+[2017.05.06-16.06.06:893][975]Cmd: DELETE
+[2017.05.06-16.06.06:893][975]Cmd: ACTOR DELETE
+[2017.05.06-16.06.06:893][975]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.06-16.06.06:910][975]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.05.06-16.06.09:179][ 15]SourceControl: Info rm 'Content/Blueprints/Target/Test/Rock_Circle_000.uasset'
+[2017.05.06-16.06.11:774][ 92]SourceControl: Info rm 'Content/Blueprints/Target/Test/Rock_Sphere_000.uasset'
+[2017.05.06-16.06.15:339][301]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.05.06-16.06.15:340][301]LogTemp:Display: Added material ShaderMap 0x00000217FF4B9D00 with Material 0x0000021751E61580 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.15:355][301]LogTemp:Display: Kicking off shader compilation for Rock, GameThreadShaderMap 0x00000217FF4B9D00
+[2017.05.06-16.06.15:444][301]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.05.06-16.06.15:445][301]LogTemp:Display: Added material ShaderMap 0x00000217BDF6EE80 with Material 0x0000021751E61580 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.15:456][301]LogTemp:Display: Kicking off shader compilation for Rock, GameThreadShaderMap 0x00000217BDF6EE80
+[2017.05.06-16.06.15:457][301]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.06.15:506][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.05.06-16.06.15:507][301]LogTemp:Display: Added material ShaderMap 0x00000217BCE35D00 with Material 0x00000217BCA8EE00 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.15:510][301]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x00000217BCE35D00
+[2017.05.06-16.06.15:539][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.05.06-16.06.15:540][301]LogTemp:Display: Added material ShaderMap 0x00000217C9B39980 with Material 0x00000217BCA8F700 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.15:544][301]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x00000217C9B39980
+[2017.05.06-16.06.16:875][374]LogTemp:Display: Finished compile of shader map 0x00000217BDF6EE80
+[2017.05.06-16.06.16:875][374]LogTemp:Display: Shader map Rock complete, GameThreadShaderMap 0x00000217BDF6EE80, marking material Rock as finished
+[2017.05.06-16.06.16:875][374]LogTemp:Display: Marking material as finished 0x0000021751E61580
+[2017.05.06-16.06.16:889][375]MaterialEditorStats: Info Base pass shader with static lighting: 113 instructions
+[2017.05.06-16.06.16:889][375]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 87 instructions
+[2017.05.06-16.06.16:889][375]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.06-16.06.16:889][375]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.05.06-16.06.16:957][379]LogTemp:Display: Finished compile of shader map 0x00000217BCE35D00
+[2017.05.06-16.06.16:957][379]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x00000217BCE35D00, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.05.06-16.06.16:957][379]LogTemp:Display: Marking material as finished 0x00000217BCA8EE00
+[2017.05.06-16.06.17:057][385]LogTemp:Display: Finished compile of shader map 0x00000217C9B39980
+[2017.05.06-16.06.17:057][385]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_1 complete, GameThreadShaderMap 0x00000217C9B39980, marking material FMatExpressionPreview MaterialExpressionTextureSample_1 as finished
+[2017.05.06-16.06.17:057][385]LogTemp:Display: Marking material as finished 0x00000217BCA8F700
+[2017.05.06-16.06.28:794][ 79]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.05.06-16.06.28:794][ 79]LogTemp:Display: Added material ShaderMap 0x0000021786894800 with Material 0x0000021792509F80 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.28:805][ 79]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x0000021786894800
+[2017.05.06-16.06.28:806][ 79]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.06.29:779][136]LogTemp:Display: Finished compile of shader map 0x0000021786894800
+[2017.05.06-16.06.29:779][136]LogTemp:Display: Shader map Material complete, GameThreadShaderMap 0x0000021786894800, marking material Material as finished
+[2017.05.06-16.06.29:779][136]LogTemp:Display: Marking material as finished 0x0000021792509F80
+[2017.05.06-16.06.29:791][137]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.06-16.06.29:791][137]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.06-16.06.29:791][137]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.06-16.06.29:791][137]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.06-16.06.33:705][179]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.05.06-16.06.33:706][179]LogTemp:Display: Added material ShaderMap 0x000002179B8E3900 with Material 0x0000021792509F80 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.33:728][179]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x000002179B8E3900
+[2017.05.06-16.06.33:728][179]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.06.33:761][179]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.05.06-16.06.33:762][179]LogTemp:Display: Added material ShaderMap 0x0000021799889D00 with Material 0x0000021781E1B100 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.33:809][179]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x0000021799889D00
+[2017.05.06-16.06.33:812][179]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.05.06-16.06.33:813][179]LogTemp:Display: Added material ShaderMap 0x000002172A677C80 with Material 0x0000021781E1B100 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.33:842][179]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x000002172A677C80
+[2017.05.06-16.06.33:844][179]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.06.33:889][179]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material, compiling. 
+[2017.05.06-16.06.33:890][179]LogTemp:Display: Added material ShaderMap 0x0000021763F71980 with Material 0x00000216BD374D00 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.34:525][179]LogTemp:Display: Finished compile of shader map 0x0000021763F71980
+[2017.05.06-16.06.34:525][179]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Material complete, GameThreadShaderMap 0x0000021763F71980, marking material FDebugViewModeMaterialProxy Material as finished
+[2017.05.06-16.06.34:525][179]LogTemp:Display: Marking material as finished 0x00000216BD374D00
+[2017.05.06-16.06.34:529][179]TextureStreamingBuild:Display: Compiling optional shaders took 0.661 seconds.
+[2017.05.06-16.06.34:685][179]LogTemp:Display: Finished compile of shader map 0x000002179B8E3900
+[2017.05.06-16.06.34:685][179]LogTemp:Display: Shader map Material complete, GameThreadShaderMap 0x000002179B8E3900, marking material Material as finished
+[2017.05.06-16.06.34:685][179]LogTemp:Display: Marking material as finished 0x0000021792509F80
+[2017.05.06-16.06.38:271][363]LogTemp:Display: Finished compile of shader map 0x000002172A677C80
+[2017.05.06-16.06.38:271][363]LogTemp:Display: Shader map Material complete, GameThreadShaderMap 0x000002172A677C80, marking material Material as finished
+[2017.05.06-16.06.38:271][363]LogTemp:Display: Marking material as finished 0x0000021781E1B100
+[2017.05.06-16.06.42:057][589]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.05.06-16.06.42:058][589]LogTemp:Display: Added material ShaderMap 0x00000217FE6AD980 with Material 0x0000021751E61580 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.42:074][589]LogTemp:Display: Kicking off shader compilation for Rock, GameThreadShaderMap 0x00000217FE6AD980
+[2017.05.06-16.06.42:075][589]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.06.43:089][649]LogTemp:Display: Finished compile of shader map 0x00000217FE6AD980
+[2017.05.06-16.06.43:089][649]LogTemp:Display: Shader map Rock complete, GameThreadShaderMap 0x00000217FE6AD980, marking material Rock as finished
+[2017.05.06-16.06.43:089][649]LogTemp:Display: Marking material as finished 0x0000021751E61580
+[2017.05.06-16.06.43:101][650]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2017.05.06-16.06.43:101][650]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 86 instructions
+[2017.05.06-16.06.43:101][650]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.06-16.06.43:101][650]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.05.06-16.06.44:504][726]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.05.06-16.06.47:277][874]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.05.06-16.06.47:277][874]LogTemp:Display: Added material ShaderMap 0x00000217F8664480 with Material 0x0000021751E61580 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.47:288][874]LogTemp:Display: Kicking off shader compilation for Rock, GameThreadShaderMap 0x00000217F8664480
+[2017.05.06-16.06.47:289][874]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.06.48:028][919]LogMaterialEditor: Saving and Compiling material Rock
+[2017.05.06-16.06.48:706][919]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.05.06-16.06.48:707][919]LogTemp:Display: Added material ShaderMap 0x000002175F3D0800 with Material 0x0000021751E61580 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.48:748][919]LogTemp:Display: Kicking off shader compilation for Rock, GameThreadShaderMap 0x000002175F3D0800
+[2017.05.06-16.06.48:748][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.06.48:759][919]LogTemp:Display: Removed shader map 0x00000217F290E400 from material 0x0000021752C21600
+[2017.05.06-16.06.48:778][919]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.05.06-16.06.48:778][919]LogTemp:Display: Added material ShaderMap 0x00000217FC659280 with Material 0x000002172E6FB280 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.48:818][919]LogTemp:Display: Kicking off shader compilation for Rock, GameThreadShaderMap 0x00000217FC659280
+[2017.05.06-16.06.48:823][919]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.05.06-16.06.48:824][919]LogTemp:Display: Added material ShaderMap 0x000002174B7DD280 with Material 0x000002172E6FB280 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.48:853][919]LogTemp:Display: Kicking off shader compilation for Rock, GameThreadShaderMap 0x000002174B7DD280
+[2017.05.06-16.06.48:856][919]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.06.48:915][919]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Rock, compiling. 
+[2017.05.06-16.06.48:917][919]LogTemp:Display: Added material ShaderMap 0x0000021782280100 with Material 0x00000217FF3A5C00 to ShaderMapsBeingCompiled
+[2017.05.06-16.06.49:552][919]LogTemp:Display: Finished compile of shader map 0x0000021782280100
+[2017.05.06-16.06.49:552][919]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Rock complete, GameThreadShaderMap 0x0000021782280100, marking material FDebugViewModeMaterialProxy Rock as finished
+[2017.05.06-16.06.49:552][919]LogTemp:Display: Marking material as finished 0x00000217FF3A5C00
+[2017.05.06-16.06.49:557][919]TextureStreamingBuild:Display: Compiling optional shaders took 0.672 seconds.
+[2017.05.06-16.06.53:122][919]LogTemp:Display: Finished compile of shader map 0x000002174B7DD280
+[2017.05.06-16.06.53:122][919]LogTemp:Display: Shader map Rock complete, GameThreadShaderMap 0x000002174B7DD280, marking material Rock as finished
+[2017.05.06-16.06.53:122][919]LogTemp:Display: Marking material as finished 0x000002172E6FB280
+[2017.05.06-16.06.53:128][919]LogTemp:Display: Finished compile of shader map 0x000002175F3D0800
+[2017.05.06-16.06.53:129][919]LogTemp:Display: Shader map Rock complete, GameThreadShaderMap 0x000002175F3D0800, marking material Rock as finished
+[2017.05.06-16.06.53:129][919]LogTemp:Display: Marking material as finished 0x0000021751E61580
+[2017.05.06-16.06.53:136][919]LogTemp:Display: Finished compile of shader map 0x00000217F8664480
+[2017.05.06-16.06.53:136][919]LogTemp:Display: Shader map Rock complete, GameThreadShaderMap 0x00000217F8664480, marking material Rock as finished
+[2017.05.06-16.06.53:136][919]LogTemp:Display: Marking material as finished 0x0000021751E61580
+[2017.05.06-16.06.53:169][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Target/Test/Rock" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Target/Test/Rock.uasset" SILENT=true
+[2017.05.06-16.06.53:256][919]LogSavePackage: Save=42.86ms
+[2017.05.06-16.06.53:256][919]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/Rock5870B08A4DE840F8767983B5090E0DA7.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Target/Test/Rock.uasset'
+[2017.05.06-16.06.53:259][919]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Target/Test/Rock.uasset
+[2017.05.06-16.06.53:271][919]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.06-16.06.53:271][919]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.06-16.06.53:271][919]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.06-16.06.53:271][919]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.06-16.06.56:482][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.06-16.06.56:917][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rune)
+[2017.05.06-16.07.00:096][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.06-16.07.02:285][433]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.06-16.07.02:288][433]LogTemp:Display: Added material ShaderMap 0x00000217055E0800 with Material 0x00000216E1A7C400 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.02:318][433]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x00000217055E0800
+[2017.05.06-16.07.02:429][433]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.05.06-16.07.02:430][433]LogTemp:Display: Added material ShaderMap 0x00000216BBF4BC80 with Material 0x00000216E1A7C400 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.02:440][433]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x00000216BBF4BC80
+[2017.05.06-16.07.02:441][433]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.07.03:402][483]LogTemp:Display: Finished compile of shader map 0x00000216BBF4BC80
+[2017.05.06-16.07.03:402][483]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x00000216BBF4BC80, marking material PreviewMaterial_0 as finished
+[2017.05.06-16.07.03:402][483]LogTemp:Display: Marking material as finished 0x00000216E1A7C400
+[2017.05.06-16.07.03:417][484]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.06-16.07.03:417][484]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.06-16.07.03:417][484]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.06-16.07.03:417][484]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.06-16.07.05:712][605]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.05.06-16.07.05:713][605]LogTemp:Display: Added material ShaderMap 0x00000217B06E4B80 with Material 0x00000217B8EFCB80 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.05:724][605]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x00000217B06E4B80
+[2017.05.06-16.07.05:811][605]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.05.06-16.07.05:812][605]LogTemp:Display: Added material ShaderMap 0x00000217DDA9E080 with Material 0x00000217B8EFCB80 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.05:822][605]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x00000217DDA9E080
+[2017.05.06-16.07.05:823][605]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.07.06:786][654]LogTemp:Display: Finished compile of shader map 0x00000217DDA9E080
+[2017.05.06-16.07.06:786][654]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x00000217DDA9E080, marking material PreviewMaterial_1 as finished
+[2017.05.06-16.07.06:786][654]LogTemp:Display: Marking material as finished 0x00000217B8EFCB80
+[2017.05.06-16.07.06:802][655]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.06-16.07.06:802][655]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.06-16.07.06:802][655]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.06-16.07.06:802][655]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.06-16.07.13:232][ 25]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.05.06-16.07.13:233][ 25]LogTemp:Display: Added material ShaderMap 0x00000216BEC9AE80 with Material 0x00000217B8EFCB80 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.13:248][ 25]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x00000216BEC9AE80
+[2017.05.06-16.07.13:248][ 25]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.07.13:263][ 25]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.05.06-16.07.14:219][ 80]LogTemp:Display: Finished compile of shader map 0x00000216BEC9AE80
+[2017.05.06-16.07.14:219][ 80]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x00000216BEC9AE80, marking material PreviewMaterial_1 as finished
+[2017.05.06-16.07.14:219][ 80]LogTemp:Display: Marking material as finished 0x00000217B8EFCB80
+[2017.05.06-16.07.14:234][ 81]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.06-16.07.14:234][ 81]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.06-16.07.14:234][ 81]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.06-16.07.14:234][ 81]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.06-16.07.20:448][440]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.05.06-16.07.20:449][440]LogTemp:Display: Added material ShaderMap 0x00000217591EFC80 with Material 0x00000217B8EFCB80 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.20:467][440]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x00000217591EFC80
+[2017.05.06-16.07.20:467][440]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.07.20:501][440]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.06-16.07.20:503][440]LogTemp:Display: Added material ShaderMap 0x00000217577D8100 with Material 0x0000021719DD5F00 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.20:509][440]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x00000217577D8100
+[2017.05.06-16.07.21:917][513]LogTemp:Display: Finished compile of shader map 0x00000217591EFC80
+[2017.05.06-16.07.21:917][513]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x00000217591EFC80, marking material PreviewMaterial_1 as finished
+[2017.05.06-16.07.21:917][513]LogTemp:Display: Marking material as finished 0x00000217B8EFCB80
+[2017.05.06-16.07.21:936][514]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.05.06-16.07.21:936][514]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.06-16.07.21:937][514]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.06-16.07.21:937][514]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.06-16.07.21:987][517]LogTemp:Display: Finished compile of shader map 0x00000217577D8100
+[2017.05.06-16.07.21:987][517]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x00000217577D8100, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.06-16.07.21:987][517]LogTemp:Display: Marking material as finished 0x0000021719DD5F00
+[2017.05.06-16.07.24:919][688]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.05.06-16.07.24:921][688]LogTemp:Display: Added material ShaderMap 0x00000217CC52AB00 with Material 0x00000217B8EFCB80 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.24:937][688]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x00000217CC52AB00
+[2017.05.06-16.07.24:938][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.07.24:980][688]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.06-16.07.24:981][688]LogTemp:Display: Added material ShaderMap 0x000002172E30DD00 with Material 0x00000217C2899300 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.24:985][688]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000002172E30DD00
+[2017.05.06-16.07.27:014][738]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.05.06-16.07.27:014][738]LogTemp:Display: Added material ShaderMap 0x00000217B3AE2780 with Material 0x00000217B8EFCB80 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.27:037][738]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_1, GameThreadShaderMap 0x00000217B3AE2780
+[2017.05.06-16.07.27:037][738]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.07.27:046][738]LogTemp:Display: Removed shader map 0x0000021799889D00 from material 0x0000021781E1B100
+[2017.05.06-16.07.27:053][738]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.05.06-16.07.27:054][738]LogTemp:Display: Added material ShaderMap 0x00000216E270E400 with Material 0x000002168E6F7100 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.27:090][738]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x00000216E270E400
+[2017.05.06-16.07.27:093][738]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.05.06-16.07.27:095][738]LogTemp:Display: Added material ShaderMap 0x00000216B6E0DD00 with Material 0x000002168E6F7100 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.27:120][738]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x00000216B6E0DD00
+[2017.05.06-16.07.27:122][738]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.06-16.07.27:149][738]LogTemp:Display: Removed shader map 0x00000217055E0800 from material 0x00000216E1A7C400
+[2017.05.06-16.07.27:176][738]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material, compiling. 
+[2017.05.06-16.07.27:178][738]LogTemp:Display: Added material ShaderMap 0x00000217B04CE080 with Material 0x00000216A4CFC100 to ShaderMapsBeingCompiled
+[2017.05.06-16.07.27:822][738]LogTemp:Display: Finished compile of shader map 0x00000217B04CE080
+[2017.05.06-16.07.27:822][738]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Material complete, GameThreadShaderMap 0x00000217B04CE080, marking material FDebugViewModeMaterialProxy Material as finished
+[2017.05.06-16.07.27:822][738]LogTemp:Display: Marking material as finished 0x00000216A4CFC100
+[2017.05.06-16.07.27:826][738]TextureStreamingBuild:Display: Compiling optional shaders took 0.676 seconds.
+[2017.05.06-16.07.27:881][738]LogTemp:Display: Removed shader map 0x000002172E30DD00 from material 0x00000217C2899300
+[2017.05.06-16.07.27:976][738]LogTemp:Display: Finished compile of shader map 0x00000217CC52AB00
+[2017.05.06-16.07.27:976][738]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x00000217CC52AB00, marking material PreviewMaterial_1 as finished
+[2017.05.06-16.07.27:976][738]LogTemp:Display: Marking material as finished 0x00000217B8EFCB80
+[2017.05.06-16.07.27:977][738]LogTemp:Display: Finished compile of shader map 0x000002172E30DD00
+[2017.05.06-16.07.27:978][738]LogTemp:Display: Finished compile of shader map 0x00000217B3AE2780
+[2017.05.06-16.07.27:978][738]LogTemp:Display: Shader map PreviewMaterial_1 complete, GameThreadShaderMap 0x00000217B3AE2780, marking material PreviewMaterial_1 as finished
+[2017.05.06-16.07.27:978][738]LogTemp:Display: Marking material as finished 0x00000217B8EFCB80
+[2017.05.06-16.07.31:707][906]LogTemp:Display: Finished compile of shader map 0x00000216B6E0DD00
+[2017.05.06-16.07.31:707][906]LogTemp:Display: Shader map Material complete, GameThreadShaderMap 0x00000216B6E0DD00, marking material Material as finished
+[2017.05.06-16.07.31:707][906]LogTemp:Display: Marking material as finished 0x000002168E6F7100
+[2017.05.06-16.07.37:305][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rock)
+[2017.05.06-16.07.38:413][300]Cmd: DELETE
+[2017.05.06-16.07.38:413][300]Cmd: ACTOR DELETE
+[2017.05.06-16.07.38:414][300]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.06-16.07.38:431][300]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.05.06-16.07.38:937][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_Rune)
+[2017.05.06-16.07.39:650][370]Cmd: DELETE
+[2017.05.06-16.07.39:650][370]Cmd: ACTOR DELETE
+[2017.05.06-16.07.39:651][370]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.06-16.07.39:673][370]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2017.05.06-16.07.55:161][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Target/Test/Material" FILE="../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Target/Test/Material.uasset" SILENT=true
+[2017.05.06-16.07.55:276][242]LogSavePackage: Save=40.25ms
+[2017.05.06-16.07.55:276][242]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/Material530C6692433E9412AECF4A844E75BC64.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Target/Test/Material.uasset'
+[2017.05.06-16.07.55:280][242]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Blueprints/Target/Test/Material.uasset
+[2017.05.06-16.07.59:978][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../../ToJamProject/TOJAM17/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.06-16.08.00:176][242]LogSavePackage: Save=139.53ms
+[2017.05.06-16.08.00:177][242]LogSavePackage: Moving '../../../../../../ToJamProject/TOJAM17/Saved/Level159924580419466F7AA52438C44DFE441.tmp' to '../../../../../../ToJamProject/TOJAM17/Content/Maps/Level1.umap'
+[2017.05.06-16.08.00:180][242]LogSavePackage:Display: Finished SavePackage ../../../../../../ToJamProject/TOJAM17/Content/Maps/Level1.umap
+[2017.05.06-16.08.00:212][242]LogFileHelpers: Saving map 'Level1' took 4.927
