@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Log file open, 05/05/17 20:15:24
 LogInit:Display: Running engine for game: TOJam2017
 LogPlatformFile: Not using cached read wrapper
@@ -262,3 +263,5 @@ LogInit: Object subsystem initialized
 [2017.05.06-00.16.36:050][666]LogOutputDevice:Error: ntdll.dll!0x00000000351170D1
 [2017.05.06-00.16.36:050][666]LogOutputDevice:Error: 
 [2017.05.06-00.16.36:053][666]LogStats:                SubmitErrorReport -  0.000 s
+=======
+>>>>>>> 5faa12473b0e992d6b402728a1488fffdba1223e
